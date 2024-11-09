@@ -1,0 +1,635 @@
+2024-01-12 17:43:13.1223|0|DEBUG|WMS_UI_API.Program|NLogeer initilized in 'Main' 
+2024-01-12 17:43:14.0747|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-01-12 17:43:14.1132|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-01-12 17:43:14.1477|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-8d5202c6-241b-48a1-bf3b-b9600653df67.xml'. 
+2024-01-12 17:43:14.1638|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8d5202c6-241b-48a1-bf3b-b9600653df67}. 
+2024-01-12 17:43:14.1638|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {8d5202c6-241b-48a1-bf3b-b9600653df67} with expiration date 2024-01-27 11:46:44Z as default key. 
+2024-01-12 17:43:14.1767|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-01-12 17:43:14.1767|0|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-01-12 17:43:14.1767|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-01-12 17:43:14.1767|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-01-12 17:43:14.1767|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-01-12 17:43:14.1767|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {8d5202c6-241b-48a1-bf3b-b9600653df67} as the default key. 
+2024-01-12 17:43:14.1767|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {8d5202c6-241b-48a1-bf3b-b9600653df67} was loaded during application startup. 
+2024-01-12 17:43:14.3211|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-01-12 17:43:14.4004|0|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-01-12 17:43:14.4286|0|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'NotificationHub' hub method 'NewEntryAdded' is bound. 
+2024-01-12 17:43:14.5063|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:6084 
+2024-01-12 17:43:14.5468|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WMS UI API 
+2024-01-12 17:43:14.5468|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-01-12 17:43:14.5468|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-01-12 17:43:14.5468|0|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-01-12 17:43:14.5513|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-01-12 17:43:14.5513|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-01-12 17:43:14.5513|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\WMS UI API - Kuster - Check multiple PO\WMS UI API 
+2024-01-12 17:43:14.5513|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-01-12 17:43:14.6363|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M73" accepted. 
+2024-01-12 17:43:14.6363|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M74" accepted. 
+2024-01-12 17:43:14.6363|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M73" started. 
+2024-01-12 17:43:14.6363|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M74" started. 
+2024-01-12 17:43:14.6678|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0JCVD67M73" received FIN. 
+2024-01-12 17:43:14.6678|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0JCVD67M74" received FIN. 
+2024-01-12 17:43:14.6678|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0JCVD67M73" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-01-12 17:43:14.6678|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0JCVD67M74" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-01-12 17:43:14.6678|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M73" disconnecting. 
+2024-01-12 17:43:14.6678|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M74" disconnecting. 
+2024-01-12 17:43:14.6794|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M73" stopped. 
+2024-01-12 17:43:14.6794|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M74" stopped. 
+2024-01-12 17:43:15.0649|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M75" accepted. 
+2024-01-12 17:43:15.0649|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M75" started. 
+2024-01-12 17:43:15.0951|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M76" accepted. 
+2024-01-12 17:43:15.0951|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M76" started. 
+2024-01-12 17:43:15.1041|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/WeatherForecast - - 
+2024-01-12 17:43:15.1429|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-01-12 17:43:15.1429|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-12 17:43:15.1792|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-01-12 17:43:15.1792|0|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-01-12 17:43:15.2110|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/WeatherForecast' 
+2024-01-12 17:43:15.2110|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast' 
+2024-01-12 17:43:15.2110|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' 
+2024-01-12 17:43:15.2110|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-01-12 17:43:15.6641|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-01-12 17:43:15.6641|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' 
+2024-01-12 17:43:15.6641|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WMS_UI_API.WeatherForecast] Get() on controller WMS_UI_API.Controllers.WeatherForecastController (WMS UI API). 
+2024-01-12 17:43:15.6766|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-01-12 17:43:15.6766|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-01-12 17:43:15.6766|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-01-12 17:43:15.6766|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-01-12 17:43:15.6766|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-01-12 17:43:15.6766|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.WeatherForecastController (WMS UI API) 
+2024-01-12 17:43:15.6766|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.WeatherForecastController (WMS UI API) 
+2024-01-12 17:43:15.6766|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 17:43:15.6766|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 17:43:15.6766|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 17:43:15.6766|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 17:43:15.6766|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API) - Validation state: Valid 
+2024-01-12 17:43:15.6766|0|INFO|WMS_UI_API.Controllers.WeatherForecastController|Connection intiation at 12:13:15 
+2024-01-12 17:43:15.6927|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.7638ms. 
+2024-01-12 17:43:15.6927|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 17:43:15.6927|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 17:43:15.6927|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 17:43:15.6927|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 17:43:15.6927|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 17:43:15.6927|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 17:43:15.6927|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-01-12 17:43:15.6927|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-01-12 17:43:15.6927|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2024-01-12 17:43:15.6927|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-01-12 17:43:15.6927|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-01-12 17:43:15.6927|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-01-12 17:43:15.6927|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'WMS_UI_API.WeatherForecast[]'. 
+2024-01-12 17:43:15.7406|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-01-12 17:43:15.7406|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 17:43:15.7406|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 17:43:15.7406|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API) in 63.1749ms 
+2024-01-12 17:43:15.7406|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' 
+2024-01-12 17:43:15.7406|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M75" completed keep alive response. 
+2024-01-12 17:43:15.7406|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/WeatherForecast - - - 200 - application/json;+charset=utf-8 649.7365ms 
+2024-01-12 17:43:15.7613|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/favicon.ico - - 
+2024-01-12 17:43:15.7613|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-12 17:43:15.7613|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-01-12 17:43:15.7613|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/favicon.ico' 
+2024-01-12 17:43:15.7613|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-01-12 17:43:15.7613|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-01-12 17:43:15.7613|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-01-12 17:43:15.7613|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M75" completed keep alive response. 
+2024-01-12 17:43:15.7613|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/favicon.ico - - - 404 0 - 1.3279ms 
+2024-01-12 17:43:17.3983|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/index.html - - 
+2024-01-12 17:43:17.3983|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-12 17:43:17.4383|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-01-12 17:43:17.5637|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - 
+2024-01-12 17:43:17.5664|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-01-12 17:43:17.5664|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M76" completed keep alive response. 
+2024-01-12 17:43:17.5664|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.8507ms 
+2024-01-12 17:43:17.5664|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M75" completed keep alive response. 
+2024-01-12 17:43:17.5664|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/index.html - - - 200 - text/html;charset=utf-8 168.3114ms 
+2024-01-12 17:43:17.5664|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - 
+2024-01-12 17:43:17.5997|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M76" completed keep alive response. 
+2024-01-12 17:43:17.5997|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.5343ms 
+2024-01-12 17:43:17.6312|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - 
+2024-01-12 17:43:17.6312|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-12 17:43:17.7487|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M76" completed keep alive response. 
+2024-01-12 17:43:17.7487|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 117.5538ms 
+2024-01-12 17:43:31.8679|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/api/StockOpening/Warehouse?BranchID=1 - - 
+2024-01-12 17:43:31.8679|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-12 17:43:31.8679|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-01-12 17:43:31.8679|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/StockOpening/Warehouse' 
+2024-01-12 17:43:31.8679|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetWarehouse (WMS UI API)' with route pattern 'api/StockOpening/Warehouse' is valid for the request path '/api/StockOpening/Warehouse' 
+2024-01-12 17:43:31.8679|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetWarehouse (WMS UI API)' 
+2024-01-12 17:43:31.8679|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-01-12 17:43:31.8679|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-01-12 17:43:31.8679|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetWarehouse (WMS UI API)' 
+2024-01-12 17:43:31.8980|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetWarehouse", controller = "StockOpening"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WMS_UI_API.Models.SO_Warehouse]]] GetWarehouse(Int32) on controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API). 
+2024-01-12 17:43:31.8980|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-01-12 17:43:31.8980|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-01-12 17:43:31.8980|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-01-12 17:43:31.8980|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-01-12 17:43:31.8980|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-01-12 17:43:31.8980|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API) 
+2024-01-12 17:43:31.8980|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API) 
+2024-01-12 17:43:31.8980|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'BranchID' of type 'System.Int32' ... 
+2024-01-12 17:43:31.9105|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'BranchID' of type 'System.Int32' using the name 'BranchID' in request data ... 
+2024-01-12 17:43:31.9105|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'BranchID' of type 'System.Int32'. 
+2024-01-12 17:43:31.9105|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'BranchID' of type 'System.Int32'. 
+2024-01-12 17:43:31.9105|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'BranchID' of type 'System.Int32' ... 
+2024-01-12 17:43:31.9105|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'BranchID' of type 'System.Int32'. 
+2024-01-12 17:43:31.9105|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 17:43:31.9105|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 17:43:31.9105|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 17:43:31.9105|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 17:43:31.9105|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.StockOpeningController.GetWarehouse (WMS UI API) - Validation state: Valid 
+2024-01-12 17:43:31.9105|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.StockOpeningController.GetWarehouse (WMS UI API) with arguments (1) 
+2024-01-12 17:43:32.0213|0|INFO|WMS_UI_API.Controllers.StockOpeningController| Calling StockOpeningController : GetWarehouse()  
+2024-01-12 17:43:32.6087|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WMS_UI_API.Controllers.StockOpeningController.GetWarehouse (WMS UI API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 695.5871ms. 
+2024-01-12 17:43:32.6087|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 17:43:32.6087|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 17:43:32.6087|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 17:43:32.6087|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 17:43:32.6087|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 17:43:32.6087|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 17:43:32.6087|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-01-12 17:43:32.6087|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-01-12 17:43:32.6087|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-01-12 17:43:32.6087|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-01-12 17:43:32.6087|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-01-12 17:43:32.6087|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-01-12 17:43:32.6087|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-01-12 17:43:32.6087|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WMS_UI_API.Models.SO_Warehouse, WMS UI API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-01-12 17:43:32.6087|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-01-12 17:43:32.6087|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 17:43:32.6087|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 17:43:32.6087|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WMS_UI_API.Controllers.StockOpeningController.GetWarehouse (WMS UI API) in 714.7857ms 
+2024-01-12 17:43:32.6087|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetWarehouse (WMS UI API)' 
+2024-01-12 17:43:32.6087|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M76" completed keep alive response. 
+2024-01-12 17:43:32.6130|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/api/StockOpening/Warehouse?BranchID=1 - - - 200 - application/json;+charset=utf-8 745.0763ms 
+2024-01-12 17:43:47.7888|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/api/StockOpening/Warehouse?BranchID=11 - - 
+2024-01-12 17:43:47.7888|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-12 17:43:47.7888|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-01-12 17:43:47.7888|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/StockOpening/Warehouse' 
+2024-01-12 17:43:47.7888|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetWarehouse (WMS UI API)' with route pattern 'api/StockOpening/Warehouse' is valid for the request path '/api/StockOpening/Warehouse' 
+2024-01-12 17:43:47.7888|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetWarehouse (WMS UI API)' 
+2024-01-12 17:43:47.7888|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-01-12 17:43:47.7888|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-01-12 17:43:47.7888|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetWarehouse (WMS UI API)' 
+2024-01-12 17:43:47.7888|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetWarehouse", controller = "StockOpening"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WMS_UI_API.Models.SO_Warehouse]]] GetWarehouse(Int32) on controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API). 
+2024-01-12 17:43:47.7888|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-01-12 17:43:47.7888|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-01-12 17:43:47.7888|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-01-12 17:43:47.7888|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-01-12 17:43:47.7888|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-01-12 17:43:47.7888|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API) 
+2024-01-12 17:43:47.7888|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API) 
+2024-01-12 17:43:47.7888|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'BranchID' of type 'System.Int32' ... 
+2024-01-12 17:43:47.7888|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'BranchID' of type 'System.Int32' using the name 'BranchID' in request data ... 
+2024-01-12 17:43:47.7888|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'BranchID' of type 'System.Int32'. 
+2024-01-12 17:43:47.7888|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'BranchID' of type 'System.Int32'. 
+2024-01-12 17:43:47.7888|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'BranchID' of type 'System.Int32' ... 
+2024-01-12 17:43:47.7888|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'BranchID' of type 'System.Int32'. 
+2024-01-12 17:43:47.7888|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 17:43:47.7888|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 17:43:47.7888|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 17:43:47.7888|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 17:43:47.7888|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.StockOpeningController.GetWarehouse (WMS UI API) - Validation state: Valid 
+2024-01-12 17:43:47.7888|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.StockOpeningController.GetWarehouse (WMS UI API) with arguments (11) 
+2024-01-12 17:43:47.7888|0|INFO|WMS_UI_API.Controllers.StockOpeningController| Calling StockOpeningController : GetWarehouse()  
+2024-01-12 17:43:47.8745|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WMS_UI_API.Controllers.StockOpeningController.GetWarehouse (WMS UI API), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 78.9341ms. 
+2024-01-12 17:43:47.8745|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 17:43:47.8745|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 17:43:47.8745|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 17:43:47.8745|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 17:43:47.8745|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 17:43:47.8745|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 17:43:47.8745|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2024-01-12 17:43:47.8745|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-01-12 17:43:47.8745|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-01-12 17:43:47.8745|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-01-12 17:43:47.8745|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-01-12 17:43:47.8745|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-01-12 17:43:47.8745|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-01-12 17:43:47.8745|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType4`3[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2024-01-12 17:43:47.8745|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2024-01-12 17:43:47.8745|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 17:43:47.8745|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 17:43:47.8745|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WMS_UI_API.Controllers.StockOpeningController.GetWarehouse (WMS UI API) in 81.3318ms 
+2024-01-12 17:43:47.8745|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetWarehouse (WMS UI API)' 
+2024-01-12 17:43:47.8745|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JCVD67M76" completed keep alive response. 
+2024-01-12 17:43:47.8745|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/api/StockOpening/Warehouse?BranchID=11 - - - 400 - application/json;+charset=utf-8 87.1759ms 
+2024-01-12 18:13:56.5823|0|DEBUG|WMS_UI_API.Program|NLogeer initilized in 'Main' 
+2024-01-12 18:13:57.9291|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-01-12 18:13:58.0197|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-01-12 18:13:58.0504|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-8d5202c6-241b-48a1-bf3b-b9600653df67.xml'. 
+2024-01-12 18:13:58.0504|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8d5202c6-241b-48a1-bf3b-b9600653df67}. 
+2024-01-12 18:13:58.0660|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {8d5202c6-241b-48a1-bf3b-b9600653df67} with expiration date 2024-01-27 11:46:44Z as default key. 
+2024-01-12 18:13:58.0660|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-01-12 18:13:58.0660|0|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-01-12 18:13:58.0660|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-01-12 18:13:58.0807|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-01-12 18:13:58.0807|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-01-12 18:13:58.0807|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {8d5202c6-241b-48a1-bf3b-b9600653df67} as the default key. 
+2024-01-12 18:13:58.0807|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {8d5202c6-241b-48a1-bf3b-b9600653df67} was loaded during application startup. 
+2024-01-12 18:13:58.3150|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-01-12 18:13:58.4316|0|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-01-12 18:13:58.4714|0|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'NotificationHub' hub method 'NewEntryAdded' is bound. 
+2024-01-12 18:13:58.6345|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:6084 
+2024-01-12 18:13:58.7470|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WMS UI API 
+2024-01-12 18:13:58.7470|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-01-12 18:13:58.7470|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-01-12 18:13:58.7470|0|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-01-12 18:13:58.7514|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-01-12 18:13:58.7514|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-01-12 18:13:58.7514|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\WMS UI API - Kuster - Check multiple PO\WMS UI API 
+2024-01-12 18:13:58.7514|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-01-12 18:13:59.1305|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0JDGISODFA" received FIN. 
+2024-01-12 18:13:59.1305|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGISODFA" accepted. 
+2024-01-12 18:13:59.1305|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGISODFA" started. 
+2024-01-12 18:13:59.1481|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0JDGISODFA" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-01-12 18:13:59.1481|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGISODFA" disconnecting. 
+2024-01-12 18:13:59.1481|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGISODFA" stopped. 
+2024-01-12 18:13:59.2258|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGISODFB" accepted. 
+2024-01-12 18:13:59.2258|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGISODFC" accepted. 
+2024-01-12 18:13:59.2258|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGISODFB" started. 
+2024-01-12 18:13:59.2258|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGISODFC" started. 
+2024-01-12 18:13:59.2614|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/WeatherForecast - - 
+2024-01-12 18:13:59.3174|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-01-12 18:13:59.3174|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-12 18:13:59.3805|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-01-12 18:13:59.3805|0|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-01-12 18:13:59.4128|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/WeatherForecast' 
+2024-01-12 18:13:59.4128|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast' 
+2024-01-12 18:13:59.4128|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' 
+2024-01-12 18:13:59.4128|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-01-12 18:13:59.4869|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-01-12 18:13:59.4869|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' 
+2024-01-12 18:13:59.5002|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WMS_UI_API.WeatherForecast] Get() on controller WMS_UI_API.Controllers.WeatherForecastController (WMS UI API). 
+2024-01-12 18:13:59.5002|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-01-12 18:13:59.5002|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-01-12 18:13:59.5002|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-01-12 18:13:59.5002|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-01-12 18:13:59.5002|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-01-12 18:13:59.5002|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.WeatherForecastController (WMS UI API) 
+2024-01-12 18:13:59.5002|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.WeatherForecastController (WMS UI API) 
+2024-01-12 18:13:59.5002|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:13:59.5002|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:13:59.5002|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:13:59.5002|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:13:59.5002|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API) - Validation state: Valid 
+2024-01-12 18:13:59.5002|0|INFO|WMS_UI_API.Controllers.WeatherForecastController|Connection intiation at 12:43:59 
+2024-01-12 18:13:59.5155|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.9725ms. 
+2024-01-12 18:13:59.5155|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:13:59.5155|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:13:59.5155|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:13:59.5155|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:13:59.5155|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:13:59.5155|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:13:59.5155|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-01-12 18:13:59.5155|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-01-12 18:13:59.5155|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2024-01-12 18:13:59.5155|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-01-12 18:13:59.5155|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-01-12 18:13:59.5155|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-01-12 18:13:59.5155|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'WMS_UI_API.WeatherForecast[]'. 
+2024-01-12 18:13:59.5877|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-01-12 18:13:59.5877|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:13:59.5877|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:13:59.5877|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API) in 87.3049ms 
+2024-01-12 18:13:59.5877|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' 
+2024-01-12 18:13:59.5931|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGISODFB" completed keep alive response. 
+2024-01-12 18:13:59.5931|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/WeatherForecast - - - 200 - application/json;+charset=utf-8 336.7707ms 
+2024-01-12 18:14:01.5068|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/index.html - - 
+2024-01-12 18:14:01.5068|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-12 18:14:01.5449|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-01-12 18:14:01.6624|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - 
+2024-01-12 18:14:01.6624|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-01-12 18:14:01.6624|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGISODFB" completed keep alive response. 
+2024-01-12 18:14:01.6624|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/index.html - - - 200 - text/html;charset=utf-8 158.0895ms 
+2024-01-12 18:14:01.6624|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGISODFC" completed keep alive response. 
+2024-01-12 18:14:01.6624|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 3.4592ms 
+2024-01-12 18:14:01.6624|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - 
+2024-01-12 18:14:01.6916|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGISODFC" completed keep alive response. 
+2024-01-12 18:14:01.6916|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.0075ms 
+2024-01-12 18:14:01.7309|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - 
+2024-01-12 18:14:01.7309|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-12 18:14:01.8673|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGISODFC" completed keep alive response. 
+2024-01-12 18:14:01.8673|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 136.4112ms 
+2024-01-12 18:14:16.8062|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/api/StockOpening/BinLocation?WhsCode=vd-store - - 
+2024-01-12 18:14:16.8062|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-12 18:14:16.8062|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-01-12 18:14:16.8062|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/StockOpening/BinLocation' 
+2024-01-12 18:14:16.8062|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API)' with route pattern 'api/StockOpening/BinLocation' is valid for the request path '/api/StockOpening/BinLocation' 
+2024-01-12 18:14:16.8062|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API)' 
+2024-01-12 18:14:16.8062|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-01-12 18:14:16.8062|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-01-12 18:14:16.8062|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API)' 
+2024-01-12 18:14:16.8432|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetBinLocation", controller = "StockOpening"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WMS_UI_API.Models.SO_BinLocation]]] GetBinLocation(System.String) on controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API). 
+2024-01-12 18:14:16.8432|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-01-12 18:14:16.8432|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-01-12 18:14:16.8432|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-01-12 18:14:16.8432|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-01-12 18:14:16.8432|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-01-12 18:14:16.8432|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API) 
+2024-01-12 18:14:16.8432|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API) 
+2024-01-12 18:14:16.8432|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'WhsCode' of type 'System.String' ... 
+2024-01-12 18:14:16.8432|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'WhsCode' of type 'System.String' using the name 'WhsCode' in request data ... 
+2024-01-12 18:14:16.8432|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'WhsCode' of type 'System.String'. 
+2024-01-12 18:14:16.8432|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'WhsCode' of type 'System.String'. 
+2024-01-12 18:14:16.8432|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'WhsCode' of type 'System.String' ... 
+2024-01-12 18:14:16.8432|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'WhsCode' of type 'System.String'. 
+2024-01-12 18:14:16.8432|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:14:16.8432|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:14:16.8432|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:14:16.8432|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:14:16.8432|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API) - Validation state: Valid 
+2024-01-12 18:14:16.8432|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API) with arguments (vd-store) 
+2024-01-12 18:14:16.9915|0|INFO|WMS_UI_API.Controllers.StockOpeningController| Calling StockOpeningController : GetBinLocation()  
+2024-01-12 18:14:17.0275|0|INFO|WMS_UI_API.Controllers.StockOpeningController| StockOpeningController : GetBinLocation() Query :  
+                SELECT A.BinAbs AbsEntry, B.BinCode 
+                FROM 
+                (
+	                SELECT T0.[BinAbs] 
+	                FROM  KCMPL_LIVE0512.dbo.[OIBQ] T0   
+		                  LEFT OUTER JOIN KCMPL_LIVE0512.dbo.[OITM] T1 ON T0.[ItemCode] = T1.[ItemCode]    
+		                  LEFT OUTER JOIN KCMPL_LIVE0512.dbo.[OWGT] T2 ON T1.[IWght1Unit] = T2.[UnitCode]    
+		                  LEFT OUTER JOIN KCMPL_LIVE0512.dbo.[OWGT] T3 ON T1.[IWght2Unit] = T3.[UnitCode]   
+	                WHERE T0.[BinAbs] IN 
+                          ( SELECT AbsEntry FROM KCMPL_LIVE0512.dbo.OBIN WHERE WhsCode = @whsCode) AND T0.[OnHandQty] > 0
+	                GROUP BY T0.[BinAbs], T2.[UnitCode], T3.[UnitCode] 
+                ) as A
+                INNER JOIN OBIN B ON A.BinAbs = B.AbsEntry
+                  
+2024-01-12 18:14:17.4093|0|ERROR|WMS_UI_API.Controllers.StockOpeningController| Error in StockOpeningController : GetBinLocation() :: System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'OBIN'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at WMS_UI_API.Controllers.StockOpeningController.GetBinLocation(String WhsCode) in C:\WMS UI API - Kuster - Check multiple PO\WMS UI API\Controllers\StockOpeningController.cs:line 132
+ClientConnectionId:252f2623-ee5a-4da3-81c4-cd71dd28ef4d
+Error Number:208,State:1,Class:16 
+2024-01-12 18:14:17.4093|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 554.9098ms. 
+2024-01-12 18:14:17.4093|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:14:17.4093|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:14:17.4093|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:14:17.4093|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:14:17.4093|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:14:17.4093|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:14:17.4093|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2024-01-12 18:14:17.4093|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-01-12 18:14:17.4093|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-01-12 18:14:17.4093|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-01-12 18:14:17.4093|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-01-12 18:14:17.4093|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-01-12 18:14:17.4093|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-01-12 18:14:17.4093|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2024-01-12 18:14:17.4093|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2024-01-12 18:14:17.4093|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:14:17.4093|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:14:17.4093|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API) in 571.2566ms 
+2024-01-12 18:14:17.4093|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API)' 
+2024-01-12 18:14:17.4093|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGISODFC" completed keep alive response. 
+2024-01-12 18:14:17.4093|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/api/StockOpening/BinLocation?WhsCode=vd-store - - - 400 - application/json;+charset=utf-8 608.4374ms 
+2024-01-12 18:14:41.7808|0|DEBUG|WMS_UI_API.Program|NLogeer initilized in 'Main' 
+2024-01-12 18:14:42.4639|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-01-12 18:14:42.5014|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-01-12 18:14:42.5173|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-8d5202c6-241b-48a1-bf3b-b9600653df67.xml'. 
+2024-01-12 18:14:42.5173|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8d5202c6-241b-48a1-bf3b-b9600653df67}. 
+2024-01-12 18:14:42.5173|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {8d5202c6-241b-48a1-bf3b-b9600653df67} with expiration date 2024-01-27 11:46:44Z as default key. 
+2024-01-12 18:14:42.5307|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-01-12 18:14:42.5307|0|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-01-12 18:14:42.5307|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-01-12 18:14:42.5307|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-01-12 18:14:42.5307|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-01-12 18:14:42.5307|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {8d5202c6-241b-48a1-bf3b-b9600653df67} as the default key. 
+2024-01-12 18:14:42.5307|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {8d5202c6-241b-48a1-bf3b-b9600653df67} was loaded during application startup. 
+2024-01-12 18:14:42.6130|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-01-12 18:14:42.6798|0|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-01-12 18:14:42.7044|0|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'NotificationHub' hub method 'NewEntryAdded' is bound. 
+2024-01-12 18:14:42.7570|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:6084 
+2024-01-12 18:14:42.7793|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WMS UI API 
+2024-01-12 18:14:42.7793|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-01-12 18:14:42.7793|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-01-12 18:14:42.7803|0|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-01-12 18:14:42.7803|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-01-12 18:14:42.7803|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-01-12 18:14:42.7803|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\WMS UI API - Kuster - Check multiple PO\WMS UI API 
+2024-01-12 18:14:42.7803|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-01-12 18:14:43.0067|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORJ" accepted. 
+2024-01-12 18:14:43.0067|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORJ" started. 
+2024-01-12 18:14:43.0067|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0JDGVV5ORJ" received FIN. 
+2024-01-12 18:14:43.0154|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0JDGVV5ORJ" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-01-12 18:14:43.0154|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORJ" disconnecting. 
+2024-01-12 18:14:43.0154|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORJ" stopped. 
+2024-01-12 18:14:43.1104|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORK" accepted. 
+2024-01-12 18:14:43.1104|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORK" started. 
+2024-01-12 18:14:43.1104|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORL" accepted. 
+2024-01-12 18:14:43.1104|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORL" started. 
+2024-01-12 18:14:43.1535|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/WeatherForecast - - 
+2024-01-12 18:14:43.1875|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-01-12 18:14:43.1875|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-12 18:14:43.2208|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-01-12 18:14:43.2208|0|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-01-12 18:14:43.2577|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/WeatherForecast' 
+2024-01-12 18:14:43.2577|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast' 
+2024-01-12 18:14:43.2577|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' 
+2024-01-12 18:14:43.2577|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-01-12 18:14:43.3273|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-01-12 18:14:43.3302|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' 
+2024-01-12 18:14:43.3458|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WMS_UI_API.WeatherForecast] Get() on controller WMS_UI_API.Controllers.WeatherForecastController (WMS UI API). 
+2024-01-12 18:14:43.3458|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-01-12 18:14:43.3458|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-01-12 18:14:43.3458|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-01-12 18:14:43.3458|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-01-12 18:14:43.3458|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-01-12 18:14:43.3458|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.WeatherForecastController (WMS UI API) 
+2024-01-12 18:14:43.3458|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.WeatherForecastController (WMS UI API) 
+2024-01-12 18:14:43.3458|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:14:43.3458|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:14:43.3458|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:14:43.3458|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:14:43.3458|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API) - Validation state: Valid 
+2024-01-12 18:14:43.3458|0|INFO|WMS_UI_API.Controllers.WeatherForecastController|Connection intiation at 12:44:43 
+2024-01-12 18:14:43.3658|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.6968ms. 
+2024-01-12 18:14:43.3658|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:14:43.3658|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:14:43.3658|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:14:43.3658|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:14:43.3658|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:14:43.3658|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:14:43.3658|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-01-12 18:14:43.3658|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-01-12 18:14:43.3658|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2024-01-12 18:14:43.3658|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-01-12 18:14:43.3658|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-01-12 18:14:43.3658|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-01-12 18:14:43.3658|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'WMS_UI_API.WeatherForecast[]'. 
+2024-01-12 18:14:43.4032|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-01-12 18:14:43.4032|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:14:43.4032|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:14:43.4063|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API) in 56.5468ms 
+2024-01-12 18:14:43.4063|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' 
+2024-01-12 18:14:43.4063|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORK" completed keep alive response. 
+2024-01-12 18:14:43.4063|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/WeatherForecast - - - 200 - application/json;+charset=utf-8 260.5342ms 
+2024-01-12 18:14:45.0419|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/index.html - - 
+2024-01-12 18:14:45.0419|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-12 18:14:45.0839|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-01-12 18:14:45.1799|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - 
+2024-01-12 18:14:45.1799|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-01-12 18:14:45.1799|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORK" completed keep alive response. 
+2024-01-12 18:14:45.1799|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/index.html - - - 200 - text/html;charset=utf-8 140.6626ms 
+2024-01-12 18:14:45.1799|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORL" completed keep alive response. 
+2024-01-12 18:14:45.1799|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 3.2825ms 
+2024-01-12 18:14:45.1873|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - 
+2024-01-12 18:14:45.2073|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORL" completed keep alive response. 
+2024-01-12 18:14:45.2073|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.0741ms 
+2024-01-12 18:14:45.2510|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - 
+2024-01-12 18:14:45.2510|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-12 18:14:45.3845|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORL" completed keep alive response. 
+2024-01-12 18:14:45.3845|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 133.6174ms 
+2024-01-12 18:14:55.6797|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/api/StockOpening/BinLocation?WhsCode=vd-store - - 
+2024-01-12 18:14:55.6797|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-12 18:14:55.6797|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-01-12 18:14:55.6797|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/StockOpening/BinLocation' 
+2024-01-12 18:14:55.6797|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API)' with route pattern 'api/StockOpening/BinLocation' is valid for the request path '/api/StockOpening/BinLocation' 
+2024-01-12 18:14:55.6797|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API)' 
+2024-01-12 18:14:55.6797|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-01-12 18:14:55.6797|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-01-12 18:14:55.6797|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API)' 
+2024-01-12 18:14:55.7044|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetBinLocation", controller = "StockOpening"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WMS_UI_API.Models.SO_BinLocation]]] GetBinLocation(System.String) on controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API). 
+2024-01-12 18:14:55.7044|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-01-12 18:14:55.7044|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-01-12 18:14:55.7044|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-01-12 18:14:55.7044|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-01-12 18:14:55.7044|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-01-12 18:14:55.7044|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API) 
+2024-01-12 18:14:55.7044|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API) 
+2024-01-12 18:14:55.7044|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'WhsCode' of type 'System.String' ... 
+2024-01-12 18:14:55.7044|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'WhsCode' of type 'System.String' using the name 'WhsCode' in request data ... 
+2024-01-12 18:14:55.7044|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'WhsCode' of type 'System.String'. 
+2024-01-12 18:14:55.7044|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'WhsCode' of type 'System.String'. 
+2024-01-12 18:14:55.7044|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'WhsCode' of type 'System.String' ... 
+2024-01-12 18:14:55.7200|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'WhsCode' of type 'System.String'. 
+2024-01-12 18:14:55.7200|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:14:55.7200|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:14:55.7200|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:14:55.7200|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:14:55.7200|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API) - Validation state: Valid 
+2024-01-12 18:14:55.7200|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API) with arguments (vd-store) 
+2024-01-12 18:14:55.7426|0|INFO|WMS_UI_API.Controllers.StockOpeningController| Calling StockOpeningController : GetBinLocation()  
+2024-01-12 18:14:55.7630|0|INFO|WMS_UI_API.Controllers.StockOpeningController| StockOpeningController : GetBinLocation() Query :  
+                SELECT A.BinAbs AbsEntry, B.BinCode 
+                FROM 
+                (
+	                SELECT T0.[BinAbs] 
+	                FROM  KCMPL_LIVE0512.dbo.[OIBQ] T0   
+		                  LEFT OUTER JOIN KCMPL_LIVE0512.dbo.[OITM] T1 ON T0.[ItemCode] = T1.[ItemCode]    
+		                  LEFT OUTER JOIN KCMPL_LIVE0512.dbo.[OWGT] T2 ON T1.[IWght1Unit] = T2.[UnitCode]    
+		                  LEFT OUTER JOIN KCMPL_LIVE0512.dbo.[OWGT] T3 ON T1.[IWght2Unit] = T3.[UnitCode]   
+	                WHERE T0.[BinAbs] IN 
+                          ( SELECT AbsEntry FROM KCMPL_LIVE0512.dbo.OBIN WHERE WhsCode = @whsCode) AND T0.[OnHandQty] > 0
+	                GROUP BY T0.[BinAbs], T2.[UnitCode], T3.[UnitCode] 
+                ) as A
+                INNER JOIN KCMPL_LIVE0512.dbo.OBIN B ON A.BinAbs = B.AbsEntry
+                  
+2024-01-12 18:14:56.2499|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 528.5471ms. 
+2024-01-12 18:14:56.2499|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:14:56.2499|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:14:56.2499|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:14:56.2499|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:14:56.2499|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:14:56.2499|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:14:56.2499|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-01-12 18:14:56.2499|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-01-12 18:14:56.2499|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-01-12 18:14:56.2499|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-01-12 18:14:56.2499|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-01-12 18:14:56.2499|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-01-12 18:14:56.2499|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-01-12 18:14:56.2499|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WMS_UI_API.Models.SO_BinLocation, WMS UI API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-01-12 18:14:56.2499|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-01-12 18:14:56.2499|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:14:56.2499|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:14:56.2499|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API) in 548.0123ms 
+2024-01-12 18:14:56.2499|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API)' 
+2024-01-12 18:14:56.2499|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORL" completed keep alive response. 
+2024-01-12 18:14:56.2499|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/api/StockOpening/BinLocation?WhsCode=vd-store - - - 200 - application/json;+charset=utf-8 572.9736ms 
+2024-01-12 18:15:08.1844|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/api/StockOpening/BinLocation?WhsCode=a - - 
+2024-01-12 18:15:08.1844|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-12 18:15:08.1844|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-01-12 18:15:08.1896|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/StockOpening/BinLocation' 
+2024-01-12 18:15:08.1896|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API)' with route pattern 'api/StockOpening/BinLocation' is valid for the request path '/api/StockOpening/BinLocation' 
+2024-01-12 18:15:08.1896|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API)' 
+2024-01-12 18:15:08.1896|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-01-12 18:15:08.1896|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-01-12 18:15:08.1896|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API)' 
+2024-01-12 18:15:08.1896|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetBinLocation", controller = "StockOpening"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WMS_UI_API.Models.SO_BinLocation]]] GetBinLocation(System.String) on controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API). 
+2024-01-12 18:15:08.1896|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-01-12 18:15:08.1896|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-01-12 18:15:08.1896|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-01-12 18:15:08.1896|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-01-12 18:15:08.1896|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-01-12 18:15:08.1896|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API) 
+2024-01-12 18:15:08.1896|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API) 
+2024-01-12 18:15:08.1896|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'WhsCode' of type 'System.String' ... 
+2024-01-12 18:15:08.1896|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'WhsCode' of type 'System.String' using the name 'WhsCode' in request data ... 
+2024-01-12 18:15:08.1896|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'WhsCode' of type 'System.String'. 
+2024-01-12 18:15:08.1896|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'WhsCode' of type 'System.String'. 
+2024-01-12 18:15:08.1896|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'WhsCode' of type 'System.String' ... 
+2024-01-12 18:15:08.1896|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'WhsCode' of type 'System.String'. 
+2024-01-12 18:15:08.1896|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:15:08.1896|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:15:08.1896|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:15:08.1896|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:15:08.1896|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API) - Validation state: Valid 
+2024-01-12 18:15:08.1896|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API) with arguments (a) 
+2024-01-12 18:15:08.1896|0|INFO|WMS_UI_API.Controllers.StockOpeningController| Calling StockOpeningController : GetBinLocation()  
+2024-01-12 18:15:08.1896|0|INFO|WMS_UI_API.Controllers.StockOpeningController| StockOpeningController : GetBinLocation() Query :  
+                SELECT A.BinAbs AbsEntry, B.BinCode 
+                FROM 
+                (
+	                SELECT T0.[BinAbs] 
+	                FROM  KCMPL_LIVE0512.dbo.[OIBQ] T0   
+		                  LEFT OUTER JOIN KCMPL_LIVE0512.dbo.[OITM] T1 ON T0.[ItemCode] = T1.[ItemCode]    
+		                  LEFT OUTER JOIN KCMPL_LIVE0512.dbo.[OWGT] T2 ON T1.[IWght1Unit] = T2.[UnitCode]    
+		                  LEFT OUTER JOIN KCMPL_LIVE0512.dbo.[OWGT] T3 ON T1.[IWght2Unit] = T3.[UnitCode]   
+	                WHERE T0.[BinAbs] IN 
+                          ( SELECT AbsEntry FROM KCMPL_LIVE0512.dbo.OBIN WHERE WhsCode = @whsCode) AND T0.[OnHandQty] > 0
+	                GROUP BY T0.[BinAbs], T2.[UnitCode], T3.[UnitCode] 
+                ) as A
+                INNER JOIN KCMPL_LIVE0512.dbo.OBIN B ON A.BinAbs = B.AbsEntry
+                  
+2024-01-12 18:15:08.2183|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 25.6233ms. 
+2024-01-12 18:15:08.2183|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:15:08.2183|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-12 18:15:08.2183|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:15:08.2183|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-12 18:15:08.2183|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:15:08.2183|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:15:08.2183|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2024-01-12 18:15:08.2183|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-01-12 18:15:08.2183|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-01-12 18:15:08.2183|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-01-12 18:15:08.2183|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-01-12 18:15:08.2183|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-01-12 18:15:08.2183|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-01-12 18:15:08.2183|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType4`3[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2024-01-12 18:15:08.2183|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2024-01-12 18:15:08.2183|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:15:08.2183|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-12 18:15:08.2183|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API) in 27.8193ms 
+2024-01-12 18:15:08.2183|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetBinLocation (WMS UI API)' 
+2024-01-12 18:15:08.2183|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORL" completed keep alive response. 
+2024-01-12 18:15:08.2183|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/api/StockOpening/BinLocation?WhsCode=a - - - 400 - application/json;+charset=utf-8 35.7468ms 
+2024-01-12 18:19:53.0204|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0JDGVV5ORK" received FIN. 
+2024-01-12 18:19:53.0331|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0JDGVV5ORK" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-01-12 18:19:53.0331|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORK" disconnecting. 
+2024-01-12 18:19:53.0808|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORK" stopped. 
+2024-01-12 18:20:53.0262|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0JDGVV5ORL" received FIN. 
+2024-01-12 18:20:53.0262|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORL" disconnecting. 
+2024-01-12 18:20:53.0301|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0JDGVV5ORL" stopped. 
+2024-01-12 18:20:53.0301|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0JDGVV5ORL" sending FIN because: "The Socket transport's send loop completed gracefully." 

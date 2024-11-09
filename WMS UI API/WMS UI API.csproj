@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>717dbf01-4615-46fc-b17a-e16162c50650</UserSecretsId>
+    <Platforms>AnyCPU;x64;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\Commented\**" />
+    <Compile Remove="Entities\**" />
+    <Content Remove="Controllers\Commented\**" />
+    <Content Remove="Entities\**" />
+    <EmbeddedResource Remove="Controllers\Commented\**" />
+    <EmbeddedResource Remove="Entities\**" />
+    <None Remove="Controllers\Commented\**" />
+    <None Remove="Entities\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\AddITRManualsController.cs" />
+    <Compile Remove="Controllers\BusinessPartnersController.cs" />
+    <Compile Remove="Controllers\DocNumBySeriessController.cs" />
+    <Compile Remove="Controllers\GRNsController.cs" />
+    <Compile Remove="Controllers\ITRsController.cs" />
+    <Compile Remove="Controllers\ITsController.cs" />
+    <Compile Remove="Controllers\LoginsController.cs" />
+    <Compile Remove="Controllers\ProductionOrdersController.cs" />
+    <Compile Remove="Controllers\ProductionOrdersController___.cs" />
+    <Compile Remove="Controllers\SeriessController.cs" />
+    <Compile Remove="Models\AddITRByGRN.cs" />
+    <Compile Remove="Models\ApprovedITR.cs" />
+    <Compile Remove="Models\BusinessPartner.cs" />
+    <Compile Remove="Models\DocNumBySeries.cs" />
+    <Compile Remove="Models\GRNFilter.cs" />
+    <Compile Remove="Models\GRNLines.cs" />
+    <Compile Remove="Models\GRNOutput.cs" />
+    <Compile Remove="Models\IT.cs" />
+    <Compile Remove="Models\Items.cs" />
+    <Compile Remove="Models\ITR.cs" />
+    <Compile Remove="Models\ITRDraft.cs" />
+    <Compile Remove="Models\LocationModel.cs" />
+    <Compile Remove="Models\Login.cs" />
+    <Compile Remove="Models\ManualITR.cs" />
+    <Compile Remove="Models\ProductionOrderFilter.cs" />
+    <Compile Remove="Models\ProductionOrderFilterOutput.cs" />
+    <Compile Remove="Models\ProductionOrderLines.cs" />
+    <Compile Remove="Models\SeriesModel.cs" />
+    <Compile Remove="Models\UOMModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net" Version="0.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.24" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="7.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.0.3" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="5.1.5" />
+    <PackageReference Include="Serilog" Version="2.12.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.4.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SAPBusinessOneSDK">
+      <HintPath>bin\Debug\SAPBusinessOneSDK.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

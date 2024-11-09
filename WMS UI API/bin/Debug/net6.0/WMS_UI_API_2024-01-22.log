@@ -1,0 +1,457 @@
+2024-01-22 09:19:39.2151|0|DEBUG|WMS_UI_API.Program|NLogeer initilized in 'Main' 
+2024-01-22 09:19:40.6346|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-01-22 09:19:40.6729|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-01-22 09:19:40.7179|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-8d5202c6-241b-48a1-bf3b-b9600653df67.xml'. 
+2024-01-22 09:19:40.7335|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8d5202c6-241b-48a1-bf3b-b9600653df67}. 
+2024-01-22 09:19:40.7445|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {8d5202c6-241b-48a1-bf3b-b9600653df67} with expiration date 2024-01-27 11:46:44Z as default key. 
+2024-01-22 09:19:40.7445|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-01-22 09:19:40.7445|0|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-01-22 09:19:40.7445|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-01-22 09:19:40.7556|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-01-22 09:19:40.7556|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-01-22 09:19:40.7556|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {8d5202c6-241b-48a1-bf3b-b9600653df67} as the default key. 
+2024-01-22 09:19:40.7556|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {8d5202c6-241b-48a1-bf3b-b9600653df67} was loaded during application startup. 
+2024-01-22 09:19:40.9153|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-01-22 09:19:40.9905|0|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-01-22 09:19:41.0130|0|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'NotificationHub' hub method 'NewEntryAdded' is bound. 
+2024-01-22 09:19:41.1407|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:6084 
+2024-01-22 09:19:41.1805|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WMS UI API 
+2024-01-22 09:19:41.1805|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-01-22 09:19:41.1805|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-01-22 09:19:41.1826|0|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-01-22 09:19:41.1826|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-01-22 09:19:41.1826|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-01-22 09:19:41.1826|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\WMS UI API - Kuster - Check multiple PO\WMS UI API 
+2024-01-22 09:19:41.1826|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-01-22 09:19:41.3412|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0QVKKVTMGU" accepted. 
+2024-01-22 09:19:41.3412|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0QVKKVTMGU" started. 
+2024-01-22 09:19:41.4526|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0QVKKVTMGV" accepted. 
+2024-01-22 09:19:41.4526|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0QVKKVTMGV" started. 
+2024-01-22 09:19:41.4931|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0QVKKVTMH0" accepted. 
+2024-01-22 09:19:41.4931|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0QVKKVTMH0" started. 
+2024-01-22 09:19:41.4931|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0QVKKVTMH1" accepted. 
+2024-01-22 09:19:41.4931|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0QVKKVTMH1" started. 
+2024-01-22 09:19:41.5438|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/WeatherForecast - - 
+2024-01-22 09:19:41.5982|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-01-22 09:19:41.5982|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-22 09:19:41.6319|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-01-22 09:19:41.6319|0|DEBUG|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Redirecting to 'https://localhost/WeatherForecast'. 
+2024-01-22 09:19:41.6319|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0QVKKVTMH0" completed keep alive response. 
+2024-01-22 09:19:41.6319|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/WeatherForecast - - - 307 0 - 109.0708ms 
+2024-01-22 14:30:14.6578|0|DEBUG|WMS_UI_API.Program|NLogeer initilized in 'Main' 
+2024-01-22 14:30:15.7344|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-01-22 14:30:15.7836|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-01-22 14:30:15.8031|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-8d5202c6-241b-48a1-bf3b-b9600653df67.xml'. 
+2024-01-22 14:30:15.8031|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8d5202c6-241b-48a1-bf3b-b9600653df67}. 
+2024-01-22 14:30:15.8179|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {8d5202c6-241b-48a1-bf3b-b9600653df67} with expiration date 2024-01-27 11:46:44Z as default key. 
+2024-01-22 14:30:15.8179|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-01-22 14:30:15.8179|0|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-01-22 14:30:15.8179|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-01-22 14:30:15.8315|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-01-22 14:30:15.8315|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-01-22 14:30:15.8315|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {8d5202c6-241b-48a1-bf3b-b9600653df67} as the default key. 
+2024-01-22 14:30:15.8315|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {8d5202c6-241b-48a1-bf3b-b9600653df67} was loaded during application startup. 
+2024-01-22 14:30:15.9715|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-01-22 14:30:16.0509|0|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-01-22 14:30:16.0729|0|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'NotificationHub' hub method 'NewEntryAdded' is bound. 
+2024-01-22 14:30:16.1564|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:6084 
+2024-01-22 14:30:16.1806|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WMS UI API 
+2024-01-22 14:30:16.1806|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-01-22 14:30:16.1806|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-01-22 14:30:16.1806|0|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-01-22 14:30:16.1806|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-01-22 14:30:16.1806|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-01-22 14:30:16.1806|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\WMS UI API - Kuster - Check multiple PO\WMS UI API 
+2024-01-22 14:30:16.1806|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-01-22 14:30:16.2707|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R526KEVMM" accepted. 
+2024-01-22 14:30:16.2707|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R526KEVMM" started. 
+2024-01-22 14:30:16.3380|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R526KEVMN" accepted. 
+2024-01-22 14:30:16.3380|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R526KEVMN" started. 
+2024-01-22 14:30:16.4052|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R526KEVMO" accepted. 
+2024-01-22 14:30:16.4052|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R526KEVMO" started. 
+2024-01-22 14:30:16.4320|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R526KEVMP" accepted. 
+2024-01-22 14:30:16.4320|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R526KEVMP" started. 
+2024-01-22 14:30:16.4505|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/WeatherForecast - - 
+2024-01-22 14:30:16.4875|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-01-22 14:30:16.4875|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-22 14:30:16.5182|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-01-22 14:30:16.5182|0|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-01-22 14:30:16.5511|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/WeatherForecast' 
+2024-01-22 14:30:16.5511|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast' 
+2024-01-22 14:30:16.5511|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' 
+2024-01-22 14:30:16.5511|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-01-22 14:30:17.0725|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-01-22 14:30:17.0725|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' 
+2024-01-22 14:30:17.0850|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WMS_UI_API.WeatherForecast] Get() on controller WMS_UI_API.Controllers.WeatherForecastController (WMS UI API). 
+2024-01-22 14:30:17.0850|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-01-22 14:30:17.0850|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-01-22 14:30:17.0850|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-01-22 14:30:17.0850|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-01-22 14:30:17.0850|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-01-22 14:30:17.0850|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.WeatherForecastController (WMS UI API) 
+2024-01-22 14:30:17.0850|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.WeatherForecastController (WMS UI API) 
+2024-01-22 14:30:17.0850|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-22 14:30:17.0850|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-22 14:30:17.0850|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-22 14:30:17.0850|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-22 14:30:17.0850|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API) - Validation state: Valid 
+2024-01-22 14:30:17.0850|0|INFO|WMS_UI_API.Controllers.WeatherForecastController|Connection intiation at 09:00:17 
+2024-01-22 14:30:17.0998|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.2699ms. 
+2024-01-22 14:30:17.0998|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-22 14:30:17.0998|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-22 14:30:17.0998|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-22 14:30:17.0998|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-22 14:30:17.0998|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-22 14:30:17.0998|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-22 14:30:17.0998|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-01-22 14:30:17.0998|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-01-22 14:30:17.0998|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2024-01-22 14:30:17.0998|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-01-22 14:30:17.0998|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-01-22 14:30:17.0998|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-01-22 14:30:17.0998|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'WMS_UI_API.WeatherForecast[]'. 
+2024-01-22 14:30:17.1376|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-01-22 14:30:17.1376|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-22 14:30:17.1376|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-22 14:30:17.1376|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API) in 52.5702ms 
+2024-01-22 14:30:17.1376|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' 
+2024-01-22 14:30:17.1376|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R526KEVMO" completed keep alive response. 
+2024-01-22 14:30:17.1457|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/WeatherForecast - - - 200 - application/json;+charset=utf-8 698.6704ms 
+2024-01-22 14:30:17.1596|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/favicon.ico - - 
+2024-01-22 14:30:17.1596|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-22 14:30:17.1596|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-01-22 14:30:17.1596|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/favicon.ico' 
+2024-01-22 14:30:17.1596|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-01-22 14:30:17.1596|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-01-22 14:30:17.1596|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-01-22 14:30:17.1596|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R526KEVMO" completed keep alive response. 
+2024-01-22 14:30:17.1596|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/favicon.ico - - - 404 0 - 1.7133ms 
+2024-01-22 14:30:18.8517|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/index.html - - 
+2024-01-22 14:30:18.8517|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-22 14:30:18.8965|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-01-22 14:30:19.0406|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-01-22 14:30:19.0406|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R526KEVMO" completed keep alive response. 
+2024-01-22 14:30:19.0406|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/index.html - - - 200 - text/html;charset=utf-8 189.0605ms 
+2024-01-22 14:30:19.0406|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - 
+2024-01-22 14:30:19.0406|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R526KEVMO" completed keep alive response. 
+2024-01-22 14:30:19.0406|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 3.0283ms 
+2024-01-22 14:30:19.0473|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - 
+2024-01-22 14:30:19.0837|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R526KEVMO" completed keep alive response. 
+2024-01-22 14:30:19.0837|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.4122ms 
+2024-01-22 14:30:19.1176|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - 
+2024-01-22 14:30:19.1176|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-22 14:30:19.2547|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R526KEVMO" completed keep alive response. 
+2024-01-22 14:30:19.2547|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 137.2515ms 
+2024-01-22 14:30:48.8335|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:6084/api/IncomingQC/ValidateItemQRNewFlow application/json 71 
+2024-01-22 14:30:48.8335|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-22 14:30:48.8335|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-01-22 14:30:48.8335|0|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:6084'. 
+2024-01-22 14:30:48.8335|0|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution failed. 
+2024-01-22 14:30:48.8335|0|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Request origin http://localhost:6084 does not have permission to access the resource. 
+2024-01-22 14:30:48.8335|0|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:6084'. 
+2024-01-22 14:30:48.8335|0|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-01-22 14:30:48.8335|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/IncomingQC/ValidateItemQRNewFlow' 
+2024-01-22 14:30:48.8335|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.IncomingQCController.ValidateItemQRNewFlow (WMS UI API)' with route pattern 'api/IncomingQC/ValidateItemQRNewFlow' is valid for the request path '/api/IncomingQC/ValidateItemQRNewFlow' 
+2024-01-22 14:30:48.8335|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.IncomingQCController.ValidateItemQRNewFlow (WMS UI API)' 
+2024-01-22 14:30:48.8335|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-01-22 14:30:48.8335|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-01-22 14:30:48.8335|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.IncomingQCController.ValidateItemQRNewFlow (WMS UI API)' 
+2024-01-22 14:30:48.8513|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ValidateItemQRNewFlow", controller = "IncomingQC"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WMS_UI_API.Models.GRPOItem]]] ValidateItemQRNewFlow(WMS_UI_API.Models.ValidateItemQRInput) on controller WMS_UI_API.Controllers.IncomingQCController (WMS UI API). 
+2024-01-22 14:30:48.8513|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-01-22 14:30:48.8513|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-01-22 14:30:48.8513|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-01-22 14:30:48.8513|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-01-22 14:30:48.8513|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-01-22 14:30:48.8513|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.IncomingQCController (WMS UI API) 
+2024-01-22 14:30:49.3883|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.IncomingQCController (WMS UI API) 
+2024-01-22 14:30:49.3930|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'payload' of type 'WMS_UI_API.Models.ValidateItemQRInput' ... 
+2024-01-22 14:30:49.3930|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'payload' of type 'WMS_UI_API.Models.ValidateItemQRInput' using the name '' in request data ... 
+2024-01-22 14:30:49.3930|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2024-01-22 14:30:49.3930|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN0R526KEVMO", Request id "0HN0R526KEVMO:00000008": started reading request body. 
+2024-01-22 14:30:49.3930|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN0R526KEVMO", Request id "0HN0R526KEVMO:00000008": done reading request body. 
+2024-01-22 14:30:49.3930|0|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'WMS_UI_API.Models.ValidateItemQRInput' 
+2024-01-22 14:30:49.3930|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'payload' of type 'WMS_UI_API.Models.ValidateItemQRInput'. 
+2024-01-22 14:30:49.3930|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'payload' of type 'WMS_UI_API.Models.ValidateItemQRInput'. 
+2024-01-22 14:30:49.3930|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'payload' of type 'WMS_UI_API.Models.ValidateItemQRInput' ... 
+2024-01-22 14:30:49.4112|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'payload' of type 'WMS_UI_API.Models.ValidateItemQRInput'. 
+2024-01-22 14:30:49.4112|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-22 14:30:49.4112|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-22 14:30:49.4112|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-22 14:30:49.4112|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-22 14:30:49.4112|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.IncomingQCController.ValidateItemQRNewFlow (WMS UI API) - Validation state: Valid 
+2024-01-22 14:30:49.4112|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.IncomingQCController.ValidateItemQRNewFlow (WMS UI API) with arguments (WMS_UI_API.Models.ValidateItemQRInput) 
+2024-01-22 14:30:51.6354|0|INFO|WMS_UI_API.Controllers.IncomingQCController| Calling IncomingQCController : ValidateItemQR()  
+2024-01-22 14:30:55.1186|0|INFO|WMS_UI_API.Controllers.IncomingQCController| IncomingQCController : Query :  select * from QIT_QR_Detail A where ISNULL(A.BranchID, @bID) = @bID and A.QRCodeId = @dQR and A.Canceled = 'N'   
+2024-01-22 14:31:05.9387|0|INFO|WMS_UI_API.Controllers.IncomingQCController| IncomingQCController : Query :  SELECT A.* FROM QIT_QRStock_POToGRPO A WHERE A.QRCodeID = @dQR AND ISNULL(A.BranchID, @bID) = @bID   
+2024-01-22 14:31:21.5912|0|INFO|WMS_UI_API.Controllers.IncomingQCController| IncomingQCController : ValidateItemQR() Query :  
+                SELECT A.ItemCode, A.QRCodeID, B.U_QA
+                FROM QIT_QRStock_POToGRPO A 
+                     INNER JOIN KCMPL_LIVE0512.dbo.OITM B ON A.ItemCode collate SQL_Latin1_General_CP850_CI_AS = B.ItemCode
+                WHERE A.QRCodeID = @dQR AND B.U_QA in (1,3) AND ISNULL(A.BranchID, @bID) = @bID   
+2024-01-22 14:33:22.5492|0|DEBUG|WMS_UI_API.Program|NLogeer initilized in 'Main' 
+2024-01-22 14:33:23.2145|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-01-22 14:33:23.2600|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-01-22 14:33:23.2750|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-8d5202c6-241b-48a1-bf3b-b9600653df67.xml'. 
+2024-01-22 14:33:23.2750|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8d5202c6-241b-48a1-bf3b-b9600653df67}. 
+2024-01-22 14:33:23.2864|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {8d5202c6-241b-48a1-bf3b-b9600653df67} with expiration date 2024-01-27 11:46:44Z as default key. 
+2024-01-22 14:33:23.2864|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-01-22 14:33:23.2864|0|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-01-22 14:33:23.2864|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-01-22 14:33:23.2864|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-01-22 14:33:23.2864|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-01-22 14:33:23.2864|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {8d5202c6-241b-48a1-bf3b-b9600653df67} as the default key. 
+2024-01-22 14:33:23.2864|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {8d5202c6-241b-48a1-bf3b-b9600653df67} was loaded during application startup. 
+2024-01-22 14:33:23.3727|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-01-22 14:33:23.4463|0|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-01-22 14:33:23.4683|0|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'NotificationHub' hub method 'NewEntryAdded' is bound. 
+2024-01-22 14:33:23.5186|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:6084 
+2024-01-22 14:33:23.5365|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WMS UI API 
+2024-01-22 14:33:23.5365|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-01-22 14:33:23.5365|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-01-22 14:33:23.5365|0|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-01-22 14:33:23.5365|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-01-22 14:33:23.5365|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-01-22 14:33:23.5365|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\WMS UI API - Kuster - Check multiple PO\WMS UI API 
+2024-01-22 14:33:23.5365|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-01-22 14:33:23.5951|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0R53UEUEU4" received FIN. 
+2024-01-22 14:33:23.5951|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0R53UEUEU3" received FIN. 
+2024-01-22 14:33:23.5951|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R53UEUEU3" accepted. 
+2024-01-22 14:33:23.5951|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R53UEUEU4" accepted. 
+2024-01-22 14:33:23.5951|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R53UEUEU4" started. 
+2024-01-22 14:33:23.5951|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R53UEUEU3" started. 
+2024-01-22 14:33:23.6264|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0R53UEUEU4" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-01-22 14:33:23.6264|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0R53UEUEU3" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-01-22 14:33:23.6264|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R53UEUEU3" disconnecting. 
+2024-01-22 14:33:23.6264|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R53UEUEU4" disconnecting. 
+2024-01-22 14:33:23.6264|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R53UEUEU4" stopped. 
+2024-01-22 14:33:23.6264|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R53UEUEU3" stopped. 
+2024-01-22 14:33:23.7126|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R53UEUEU5" accepted. 
+2024-01-22 14:33:23.7126|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R53UEUEU5" started. 
+2024-01-22 14:33:23.7126|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R53UEUEU6" accepted. 
+2024-01-22 14:33:23.7126|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R53UEUEU6" started. 
+2024-01-22 14:33:23.7507|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/WeatherForecast - - 
+2024-01-22 14:33:23.7888|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-01-22 14:33:23.7888|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-22 14:33:23.8165|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-01-22 14:33:23.8165|0|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-01-22 14:33:23.8503|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/WeatherForecast' 
+2024-01-22 14:33:23.8503|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast' 
+2024-01-22 14:33:23.8503|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' 
+2024-01-22 14:33:23.8503|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-01-22 14:33:23.9084|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-01-22 14:33:23.9084|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' 
+2024-01-22 14:33:23.9248|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WMS_UI_API.WeatherForecast] Get() on controller WMS_UI_API.Controllers.WeatherForecastController (WMS UI API). 
+2024-01-22 14:33:23.9248|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-01-22 14:33:23.9248|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-01-22 14:33:23.9248|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-01-22 14:33:23.9248|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-01-22 14:33:23.9248|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-01-22 14:33:23.9248|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.WeatherForecastController (WMS UI API) 
+2024-01-22 14:33:23.9248|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.WeatherForecastController (WMS UI API) 
+2024-01-22 14:33:23.9248|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-22 14:33:23.9248|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-22 14:33:23.9248|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-22 14:33:23.9248|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-22 14:33:23.9248|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API) - Validation state: Valid 
+2024-01-22 14:33:23.9248|0|INFO|WMS_UI_API.Controllers.WeatherForecastController|Connection intiation at 09:03:23 
+2024-01-22 14:33:23.9360|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.6159ms. 
+2024-01-22 14:33:23.9360|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-22 14:33:23.9360|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-22 14:33:23.9360|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-22 14:33:23.9360|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-22 14:33:23.9360|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-22 14:33:23.9360|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-22 14:33:23.9360|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-01-22 14:33:23.9360|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-01-22 14:33:23.9360|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2024-01-22 14:33:23.9360|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-01-22 14:33:23.9360|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-01-22 14:33:23.9360|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-01-22 14:33:23.9360|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'WMS_UI_API.WeatherForecast[]'. 
+2024-01-22 14:33:23.9858|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-01-22 14:33:23.9858|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-22 14:33:23.9858|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-22 14:33:23.9858|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API) in 60.5619ms 
+2024-01-22 14:33:23.9858|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' 
+2024-01-22 14:33:23.9858|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R53UEUEU5" completed keep alive response. 
+2024-01-22 14:33:23.9858|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/WeatherForecast - - - 200 - application/json;+charset=utf-8 246.7373ms 
+2024-01-22 14:33:26.1235|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/index.html - - 
+2024-01-22 14:33:26.1235|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-22 14:33:26.1627|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-01-22 14:33:26.2595|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - 
+2024-01-22 14:33:26.2595|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-01-22 14:33:26.2595|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R53UEUEU5" completed keep alive response. 
+2024-01-22 14:33:26.2595|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/index.html - - - 200 - text/html;charset=utf-8 136.6770ms 
+2024-01-22 14:33:26.2595|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R53UEUEU6" completed keep alive response. 
+2024-01-22 14:33:26.2595|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.7061ms 
+2024-01-22 14:33:26.2650|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - 
+2024-01-22 14:33:26.2903|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R53UEUEU6" completed keep alive response. 
+2024-01-22 14:33:26.2903|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.3644ms 
+2024-01-22 14:33:26.3265|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - 
+2024-01-22 14:33:26.3265|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-22 14:33:26.4568|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R53UEUEU6" completed keep alive response. 
+2024-01-22 14:33:26.4568|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 130.3518ms 
+2024-01-22 14:33:41.3689|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:6084/api/IncomingQC/ValidateItemQRNewFlow application/json 71 
+2024-01-22 14:33:41.3689|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-22 14:33:41.3689|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-01-22 14:33:41.3689|0|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:6084'. 
+2024-01-22 14:33:41.3689|0|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution failed. 
+2024-01-22 14:33:41.3689|0|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Request origin http://localhost:6084 does not have permission to access the resource. 
+2024-01-22 14:33:41.3689|0|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:6084'. 
+2024-01-22 14:33:41.3689|0|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-01-22 14:33:41.3689|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/IncomingQC/ValidateItemQRNewFlow' 
+2024-01-22 14:33:41.3689|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.IncomingQCController.ValidateItemQRNewFlow (WMS UI API)' with route pattern 'api/IncomingQC/ValidateItemQRNewFlow' is valid for the request path '/api/IncomingQC/ValidateItemQRNewFlow' 
+2024-01-22 14:33:41.3689|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.IncomingQCController.ValidateItemQRNewFlow (WMS UI API)' 
+2024-01-22 14:33:41.3689|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-01-22 14:33:41.3689|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-01-22 14:33:41.3689|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.IncomingQCController.ValidateItemQRNewFlow (WMS UI API)' 
+2024-01-22 14:33:41.4101|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ValidateItemQRNewFlow", controller = "IncomingQC"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WMS_UI_API.Models.GRPOItem]]] ValidateItemQRNewFlow(WMS_UI_API.Models.ValidateItemQRInput) on controller WMS_UI_API.Controllers.IncomingQCController (WMS UI API). 
+2024-01-22 14:33:41.4101|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-01-22 14:33:41.4101|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-01-22 14:33:41.4101|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-01-22 14:33:41.4101|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-01-22 14:33:41.4101|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-01-22 14:33:41.4101|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.IncomingQCController (WMS UI API) 
+2024-01-22 14:33:41.7035|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.IncomingQCController (WMS UI API) 
+2024-01-22 14:33:41.7035|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'payload' of type 'WMS_UI_API.Models.ValidateItemQRInput' ... 
+2024-01-22 14:33:41.7035|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'payload' of type 'WMS_UI_API.Models.ValidateItemQRInput' using the name '' in request data ... 
+2024-01-22 14:33:41.7035|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2024-01-22 14:33:41.7035|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN0R53UEUEU6", Request id "0HN0R53UEUEU6:00000005": started reading request body. 
+2024-01-22 14:33:41.7035|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN0R53UEUEU6", Request id "0HN0R53UEUEU6:00000005": done reading request body. 
+2024-01-22 14:33:41.7182|0|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'WMS_UI_API.Models.ValidateItemQRInput' 
+2024-01-22 14:33:41.7182|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'payload' of type 'WMS_UI_API.Models.ValidateItemQRInput'. 
+2024-01-22 14:33:41.7182|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'payload' of type 'WMS_UI_API.Models.ValidateItemQRInput'. 
+2024-01-22 14:33:41.7182|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'payload' of type 'WMS_UI_API.Models.ValidateItemQRInput' ... 
+2024-01-22 14:33:41.7182|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'payload' of type 'WMS_UI_API.Models.ValidateItemQRInput'. 
+2024-01-22 14:33:41.7182|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-22 14:33:41.7182|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-22 14:33:41.7182|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-22 14:33:41.7182|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-22 14:33:41.7182|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.IncomingQCController.ValidateItemQRNewFlow (WMS UI API) - Validation state: Valid 
+2024-01-22 14:33:41.7182|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.IncomingQCController.ValidateItemQRNewFlow (WMS UI API) with arguments (WMS_UI_API.Models.ValidateItemQRInput) 
+2024-01-22 14:33:43.5845|0|INFO|WMS_UI_API.Controllers.IncomingQCController| Calling IncomingQCController : ValidateItemQR()  
+2024-01-22 14:33:43.6071|0|INFO|WMS_UI_API.Controllers.IncomingQCController| IncomingQCController : Query :  select * from QIT_QR_Detail A where ISNULL(A.BranchID, @bID) = @bID and A.QRCodeId = @dQR and A.Canceled = 'N'   
+2024-01-22 14:33:43.8037|0|INFO|WMS_UI_API.Controllers.IncomingQCController| IncomingQCController : Query :  SELECT A.* FROM QIT_QRStock_POToGRPO A WHERE A.QRCodeID = @dQR AND ISNULL(A.BranchID, @bID) = @bID   
+2024-01-22 14:33:43.8037|0|INFO|WMS_UI_API.Controllers.IncomingQCController| IncomingQCController : ValidateItemQR() Query :  
+                SELECT A.ItemCode, A.QRCodeID, B.U_QA
+                FROM QIT_QRStock_POToGRPO A 
+                     INNER JOIN KCMPL_LIVE0512.dbo.OITM B ON A.ItemCode collate SQL_Latin1_General_CP850_CI_AS = B.ItemCode
+                WHERE A.QRCodeID = @dQR AND B.U_QA in (1,3) AND ISNULL(A.BranchID, @bID) = @bID   
+2024-01-22 14:33:43.8037|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WMS_UI_API.Controllers.IncomingQCController.ValidateItemQRNewFlow (WMS UI API), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 2084.3275ms. 
+2024-01-22 14:33:43.8037|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-22 14:33:43.8037|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-22 14:33:43.8037|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-22 14:33:43.8037|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-22 14:33:43.8037|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-22 14:33:43.8037|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-22 14:33:43.8037|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2024-01-22 14:33:43.8037|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-01-22 14:33:43.8131|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-01-22 14:33:43.8131|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-01-22 14:33:43.8131|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-01-22 14:33:43.8131|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-01-22 14:33:43.8131|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-01-22 14:33:43.8131|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2024-01-22 14:33:43.8131|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2024-01-22 14:33:43.8131|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-22 14:33:43.8131|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-22 14:33:43.8131|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WMS_UI_API.Controllers.IncomingQCController.ValidateItemQRNewFlow (WMS UI API) in 2409.468ms 
+2024-01-22 14:33:43.8131|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WMS_UI_API.Controllers.IncomingQCController.ValidateItemQRNewFlow (WMS UI API)' 
+2024-01-22 14:33:43.8131|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R53UEUEU6" completed keep alive response. 
+2024-01-22 14:33:43.8131|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:6084/api/IncomingQC/ValidateItemQRNewFlow application/json 71 - 400 - application/json;+charset=utf-8 2450.9215ms 
+2024-01-22 16:23:42.7394|0|DEBUG|WMS_UI_API.Program|NLogeer initilized in 'Main' 
+2024-01-22 16:23:44.2751|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-01-22 16:23:44.3152|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-01-22 16:23:44.3298|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-8d5202c6-241b-48a1-bf3b-b9600653df67.xml'. 
+2024-01-22 16:23:44.3298|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8d5202c6-241b-48a1-bf3b-b9600653df67}. 
+2024-01-22 16:23:44.3298|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {8d5202c6-241b-48a1-bf3b-b9600653df67} with expiration date 2024-01-27 11:46:44Z as default key. 
+2024-01-22 16:23:44.3298|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-01-22 16:23:44.3298|0|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-01-22 16:23:44.3298|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-01-22 16:23:44.3494|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-01-22 16:23:44.3494|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-01-22 16:23:44.3494|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {8d5202c6-241b-48a1-bf3b-b9600653df67} as the default key. 
+2024-01-22 16:23:44.3494|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {8d5202c6-241b-48a1-bf3b-b9600653df67} was loaded during application startup. 
+2024-01-22 16:23:44.4752|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-01-22 16:23:44.6521|0|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-01-22 16:23:44.6724|0|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'NotificationHub' hub method 'NewEntryAdded' is bound. 
+2024-01-22 16:23:44.7196|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:6084 
+2024-01-22 16:23:44.7407|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WMS UI API 
+2024-01-22 16:23:44.7407|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-01-22 16:23:44.7407|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-01-22 16:23:44.7407|0|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-01-22 16:23:44.7407|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-01-22 16:23:44.7407|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-01-22 16:23:44.7407|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\WMS UI API - Kuster - Check multiple PO\WMS UI API 
+2024-01-22 16:23:44.7407|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-01-22 16:23:45.0273|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R71JPQMF3" accepted. 
+2024-01-22 16:23:45.0273|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R71JPQMF3" started. 
+2024-01-22 16:23:45.0273|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R71JPQMF4" accepted. 
+2024-01-22 16:23:45.0273|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R71JPQMF4" started. 
+2024-01-22 16:23:45.3931|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R71JPQMF5" accepted. 
+2024-01-22 16:23:45.3931|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R71JPQMF5" started. 
+2024-01-22 16:23:45.4176|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R71JPQMF6" accepted. 
+2024-01-22 16:23:45.4176|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R71JPQMF6" started. 
+2024-01-22 16:23:45.4629|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/WeatherForecast - - 
+2024-01-22 16:23:45.4966|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-01-22 16:23:45.4966|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-22 16:23:45.5272|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-01-22 16:23:45.5272|0|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-01-22 16:23:45.5680|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/WeatherForecast' 
+2024-01-22 16:23:45.5680|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast' 
+2024-01-22 16:23:45.5680|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' 
+2024-01-22 16:23:45.5680|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-01-22 16:23:46.1169|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-01-22 16:23:46.1169|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' 
+2024-01-22 16:23:46.1169|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WMS_UI_API.WeatherForecast] Get() on controller WMS_UI_API.Controllers.WeatherForecastController (WMS UI API). 
+2024-01-22 16:23:46.1169|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-01-22 16:23:46.1169|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-01-22 16:23:46.1169|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-01-22 16:23:46.1169|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-01-22 16:23:46.1169|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-01-22 16:23:46.1169|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.WeatherForecastController (WMS UI API) 
+2024-01-22 16:23:46.1169|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.WeatherForecastController (WMS UI API) 
+2024-01-22 16:23:46.1169|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-22 16:23:46.1169|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-22 16:23:46.1169|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-22 16:23:46.1169|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-22 16:23:46.1169|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API) - Validation state: Valid 
+2024-01-22 16:23:46.1368|0|INFO|WMS_UI_API.Controllers.WeatherForecastController|Connection intiation at 10:53:46 
+2024-01-22 16:23:46.1433|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.8429ms. 
+2024-01-22 16:23:46.1433|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-22 16:23:46.1433|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-01-22 16:23:46.1433|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-22 16:23:46.1433|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-01-22 16:23:46.1433|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-22 16:23:46.1433|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-22 16:23:46.1433|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-01-22 16:23:46.1433|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-01-22 16:23:46.1433|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2024-01-22 16:23:46.1433|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-01-22 16:23:46.1433|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-01-22 16:23:46.1433|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-01-22 16:23:46.1433|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'WMS_UI_API.WeatherForecast[]'. 
+2024-01-22 16:23:46.1859|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-01-22 16:23:46.1859|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-22 16:23:46.1859|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-01-22 16:23:46.1909|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API) in 57.2403ms 
+2024-01-22 16:23:46.1909|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WMS_UI_API.Controllers.WeatherForecastController.Get (WMS UI API)' 
+2024-01-22 16:23:46.1909|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R71JPQMF6" completed keep alive response. 
+2024-01-22 16:23:46.1909|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/WeatherForecast - - - 200 - application/json;+charset=utf-8 736.0748ms 
+2024-01-22 16:23:46.2051|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/favicon.ico - - 
+2024-01-22 16:23:46.2051|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-01-22 16:23:46.2051|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-01-22 16:23:46.2051|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/favicon.ico' 
+2024-01-22 16:23:46.2051|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-01-22 16:23:46.2051|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-01-22 16:23:46.2051|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-01-22 16:23:46.2051|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R71JPQMF6" completed keep alive response. 
+2024-01-22 16:23:46.2051|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/favicon.ico - - - 404 0 - 10.0590ms 
+2024-01-22 16:23:47.8102|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0R71JPQMF6" received FIN. 
+2024-01-22 16:23:47.8102|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0R71JPQMF5" received FIN. 
+2024-01-22 16:23:47.8102|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0R71JPQMF6" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-01-22 16:23:47.8102|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN0R71JPQMF5" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-01-22 16:23:47.8189|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R71JPQMF6" disconnecting. 
+2024-01-22 16:23:47.8189|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R71JPQMF5" disconnecting. 
+2024-01-22 16:23:47.8189|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R71JPQMF6" stopped. 
+2024-01-22 16:23:47.8189|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN0R71JPQMF5" stopped. 

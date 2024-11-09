@@ -1,0 +1,310 @@
+2024-03-06 11:48:54.4646|0|DEBUG|WMS_UI_API.Program|NLogeer initilized in 'Main' 
+2024-03-06 11:48:55.5995|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-03-06 11:48:55.6466|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-03-06 11:48:55.6749|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-8d5202c6-241b-48a1-bf3b-b9600653df67.xml'. 
+2024-03-06 11:48:55.6865|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-d4ba379b-ed04-4785-b05a-ff62577380f2.xml'. 
+2024-03-06 11:48:55.7024|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8d5202c6-241b-48a1-bf3b-b9600653df67}. 
+2024-03-06 11:48:55.7024|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {d4ba379b-ed04-4785-b05a-ff62577380f2}. 
+2024-03-06 11:48:55.7121|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {d4ba379b-ed04-4785-b05a-ff62577380f2} with expiration date 2024-04-24 11:52:15Z as default key. 
+2024-03-06 11:48:55.7121|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-03-06 11:48:55.7121|0|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-03-06 11:48:55.7121|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-03-06 11:48:55.7121|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-03-06 11:48:55.7121|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-03-06 11:48:55.7121|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {d4ba379b-ed04-4785-b05a-ff62577380f2} as the default key. 
+2024-03-06 11:48:55.7121|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {d4ba379b-ed04-4785-b05a-ff62577380f2} was loaded during application startup. 
+2024-03-06 11:48:55.8902|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-03-06 11:48:55.9834|0|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-03-06 11:48:56.0117|0|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'NotificationHub' hub method 'NewEntryAdded' is bound. 
+2024-03-06 11:48:56.1270|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:6084 
+2024-03-06 11:48:56.1638|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKL6QIP2M" accepted. 
+2024-03-06 11:48:56.1638|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKL6QIP2M" started. 
+2024-03-06 11:48:56.1658|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WMS UI API 
+2024-03-06 11:48:56.1658|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-03-06 11:48:56.1658|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-03-06 11:48:56.1658|0|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-03-06 11:48:56.1658|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-03-06 11:48:56.1658|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-03-06 11:48:56.1658|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\WMS UI API - Kuster - Check multiple PO\WMS UI API 
+2024-03-06 11:48:56.1658|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKL6QIP2N" accepted. 
+2024-03-06 11:48:56.1658|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKL6QIP2N" started. 
+2024-03-06 11:48:56.1658|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-03-06 11:48:56.3243|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKL6QIP2O" accepted. 
+2024-03-06 11:48:56.3243|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKL6QIP2O" started. 
+2024-03-06 11:48:56.3274|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKL6QIP2P" accepted. 
+2024-03-06 11:48:56.3274|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKL6QIP2P" started. 
+2024-03-06 11:48:56.3716|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/index.html - - 
+2024-03-06 11:48:56.4063|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-03-06 11:48:56.4063|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-03-06 11:48:56.4873|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-03-06 11:48:56.6804|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKL6QIP2Q" accepted. 
+2024-03-06 11:48:56.6809|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKL6QIP2Q" started. 
+2024-03-06 11:48:56.6809|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - 
+2024-03-06 11:48:56.6809|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - 
+2024-03-06 11:48:56.6809|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKL6QIP2P" completed keep alive response. 
+2024-03-06 11:48:56.6809|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 8.5983ms 
+2024-03-06 11:48:56.7093|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-03-06 11:48:56.7093|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKL6QIP2O" completed keep alive response. 
+2024-03-06 11:48:56.7133|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/index.html - - - 200 - text/html;charset=utf-8 345.9432ms 
+2024-03-06 11:48:56.7644|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKL6QIP2Q" completed keep alive response. 
+2024-03-06 11:48:56.7644|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 83.3703ms 
+2024-03-06 11:48:56.7939|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - 
+2024-03-06 11:48:56.7939|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-03-06 11:48:56.8151|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/favicon-32x32.png - - 
+2024-03-06 11:48:56.8151|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-03-06 11:48:56.8151|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-03-06 11:48:56.8151|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2024-03-06 11:48:56.8151|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKL6QIP2O" completed keep alive response. 
+2024-03-06 11:48:56.8151|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/favicon-32x32.png - - - 200 628 image/png 6.9204ms 
+2024-03-06 11:48:56.9650|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKL6QIP2Q" completed keep alive response. 
+2024-03-06 11:48:56.9650|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 171.5100ms 
+2024-03-06 11:49:12.2453|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:6084/api/SupplierGateIn/SaveVendorGateIN application/json 769 
+2024-03-06 11:49:12.2453|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-03-06 11:49:12.2453|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-03-06 11:49:12.2453|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-03-06 11:49:12.2453|0|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:6084'. 
+2024-03-06 11:49:12.2453|0|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution failed. 
+2024-03-06 11:49:12.2453|0|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Request origin http://localhost:6084 does not have permission to access the resource. 
+2024-03-06 11:49:12.2453|0|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:6084'. 
+2024-03-06 11:49:12.2453|0|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-03-06 11:49:12.2453|0|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-03-06 11:49:12.2894|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/SupplierGateIn/SaveVendorGateIN' 
+2024-03-06 11:49:12.2894|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.SupplierGateInController.SaveVendorGateIN (WMS UI API)' with route pattern 'api/SupplierGateIn/SaveVendorGateIN' is valid for the request path '/api/SupplierGateIn/SaveVendorGateIN' 
+2024-03-06 11:49:12.2894|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.SupplierGateInController.SaveVendorGateIN (WMS UI API)' 
+2024-03-06 11:49:12.2894|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-03-06 11:49:12.7322|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-03-06 11:49:12.7322|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.SupplierGateInController.SaveVendorGateIN (WMS UI API)' 
+2024-03-06 11:49:12.7554|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SaveVendorGateIN", controller = "SupplierGateIn"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SaveVendorGateIN(WMS_UI_API.Models.SaveVendorGateIN) on controller WMS_UI_API.Controllers.SupplierGateInController (WMS UI API). 
+2024-03-06 11:49:12.7554|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-03-06 11:49:12.7554|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-03-06 11:49:12.7554|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-03-06 11:49:12.7554|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-03-06 11:49:12.7554|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-03-06 11:49:12.7554|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.SupplierGateInController (WMS UI API) 
+2024-03-06 11:49:13.2642|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.SupplierGateInController (WMS UI API) 
+2024-03-06 11:49:13.2642|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'payload' of type 'WMS_UI_API.Models.SaveVendorGateIN' ... 
+2024-03-06 11:49:13.2642|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'payload' of type 'WMS_UI_API.Models.SaveVendorGateIN' using the name '' in request data ... 
+2024-03-06 11:49:13.2642|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2024-03-06 11:49:13.2750|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN1TKL6QIP2Q", Request id "0HN1TKL6QIP2Q:00000004": started reading request body. 
+2024-03-06 11:49:13.2750|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN1TKL6QIP2Q", Request id "0HN1TKL6QIP2Q:00000004": done reading request body. 
+2024-03-06 11:49:13.2750|0|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'WMS_UI_API.Models.SaveVendorGateIN' 
+2024-03-06 11:49:13.2750|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'payload' of type 'WMS_UI_API.Models.SaveVendorGateIN'. 
+2024-03-06 11:49:13.2750|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'payload' of type 'WMS_UI_API.Models.SaveVendorGateIN'. 
+2024-03-06 11:49:13.2750|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'payload' of type 'WMS_UI_API.Models.SaveVendorGateIN' ... 
+2024-03-06 11:49:13.2750|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'payload' of type 'WMS_UI_API.Models.SaveVendorGateIN'. 
+2024-03-06 11:49:13.2909|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-06 11:49:13.2909|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-06 11:49:13.2909|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-06 11:49:13.2909|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-06 11:49:13.2909|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.SupplierGateInController.SaveVendorGateIN (WMS UI API) - Validation state: Valid 
+2024-03-06 11:49:13.2909|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.SupplierGateInController.SaveVendorGateIN (WMS UI API) with arguments (WMS_UI_API.Models.SaveVendorGateIN) 
+2024-03-06 11:49:13.3627|0|INFO|WMS_UI_API.Controllers.SupplierGateInController| Calling SupplierGateInController : SaveVendorGateIN()  
+2024-03-06 11:49:13.5791|0|INFO|WMS_UI_API.Controllers.SupplierGateInController| SupplierGateInController : Get Vendor GateIN No Query :  SELECT ISNULL(max(VendorGateInNo),0) + 1 FROM QIT_VendorGateIN A    
+2024-03-06 11:49:13.5791|0|INFO|WMS_UI_API.Controllers.SupplierGateInController| SupplierGateInController : SaveVendorGateIN() Query :  
+                        INSERT INTO QIT_VendorGateIN
+                        (
+                            SrNo, VendorGateInNo, BranchID, ObjType, CardCode, DocEntry, DocNum, Series, LineNum, ItemCode, 
+                            RecQty, Project, WhsCode, UoMCode, ToleranceApplied, Canceled,  
+                            EntryDate, EntryUser 
+                        )
+                        VALUES
+                        (   (select ISNULL(max(SrNo),0) + 1 from QIT_VendorGateIN), 
+                            @vgateInNo, @bID, @objType, @cardCode, @docEntry, @docNum, @series, @line, @iCode, 
+                            @recQty, @proj, @whs, @uom, @tolApplied, @cancel, 
+                            @entryDate,  @entryUser
+                        )
+                          
+2024-03-06 11:49:27.5432|0|INFO|WMS_UI_API.Controllers.SupplierGateInController| SupplierGateInController : SaveVendorGateIN() Query :  
+                        INSERT INTO QIT_VendorGateIN
+                        (
+                            SrNo, VendorGateInNo, BranchID, ObjType, CardCode, DocEntry, DocNum, Series, LineNum, ItemCode, 
+                            RecQty, Project, WhsCode, UoMCode, ToleranceApplied, Canceled,  
+                            EntryDate, EntryUser 
+                        )
+                        VALUES
+                        (   (select ISNULL(max(SrNo),0) + 1 from QIT_VendorGateIN), 
+                            @vgateInNo, @bID, @objType, @cardCode, @docEntry, @docNum, @series, @line, @iCode, 
+                            @recQty, @proj, @whs, @uom, @tolApplied, @cancel, 
+                            @entryDate,  @entryUser
+                        )
+                          
+2024-03-06 11:49:58.4203|0|INFO|WMS_UI_API.Controllers.SupplierGateInController| Calling SupplierGateInController : DeleteVendorGateIN()  
+2024-03-06 11:50:02.8679|0|INFO|WMS_UI_API.Controllers.SupplierGateInController| SupplierGateInController : DeleteVendorGateIN Query :  DELETE FROM QIT_VendorGateIN WHERE VendorGateInNo = @gateInNo   
+2024-03-06 11:50:07.9391|0|ERROR|WMS_UI_API.Controllers.SupplierGateInController| Error in SupplierGateInController : SaveVendorGateIN() :: System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_QIT_VendorGateIN'. Cannot insert duplicate key in object 'dbo.QIT_VendorGateIN'. The duplicate key value is (6).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at WMS_UI_API.Controllers.SupplierGateInController.SaveVendorGateIN(SaveVendorGateIN payload) in C:\WMS UI API - Kuster - Check multiple PO\WMS UI API\Controllers\SupplierGateInController.cs:line 458
+ClientConnectionId:8ca18808-9ca7-47b5-bab7-241fdc0026d9
+Error Number:2627,State:1,Class:14 
+2024-03-06 11:50:10.1422|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WMS_UI_API.Controllers.SupplierGateInController.SaveVendorGateIN (WMS UI API), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 56843.2509ms. 
+2024-03-06 11:50:10.1422|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-06 11:50:10.1422|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-06 11:50:10.1422|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-06 11:50:10.1422|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-06 11:50:10.1422|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-06 11:50:10.1422|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-06 11:50:10.1422|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2024-03-06 11:50:10.1422|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-03-06 11:50:10.1422|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2024-03-06 11:50:10.1422|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-03-06 11:50:10.1422|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-03-06 11:50:10.1422|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-03-06 11:50:10.1422|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2024-03-06 11:50:10.1497|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2024-03-06 11:50:10.1497|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-06 11:50:10.1497|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-06 11:50:10.1497|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WMS_UI_API.Controllers.SupplierGateInController.SaveVendorGateIN (WMS UI API) in 57393.823ms 
+2024-03-06 11:50:10.1497|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WMS_UI_API.Controllers.SupplierGateInController.SaveVendorGateIN (WMS UI API)' 
+2024-03-06 11:50:10.1497|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKL6QIP2Q" completed keep alive response. 
+2024-03-06 11:50:10.1497|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:6084/api/SupplierGateIn/SaveVendorGateIN application/json 769 - 400 - application/json;+charset=utf-8 57908.6688ms 
+2024-03-06 12:05:44.7949|0|DEBUG|WMS_UI_API.Program|NLogeer initilized in 'Main' 
+2024-03-06 12:05:45.9057|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-03-06 12:05:45.9568|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-03-06 12:05:45.9680|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-8d5202c6-241b-48a1-bf3b-b9600653df67.xml'. 
+2024-03-06 12:05:45.9680|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-d4ba379b-ed04-4785-b05a-ff62577380f2.xml'. 
+2024-03-06 12:05:45.9680|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8d5202c6-241b-48a1-bf3b-b9600653df67}. 
+2024-03-06 12:05:45.9680|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {d4ba379b-ed04-4785-b05a-ff62577380f2}. 
+2024-03-06 12:05:45.9680|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {d4ba379b-ed04-4785-b05a-ff62577380f2} with expiration date 2024-04-24 11:52:15Z as default key. 
+2024-03-06 12:05:45.9680|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-03-06 12:05:45.9680|0|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-03-06 12:05:45.9680|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-03-06 12:05:45.9680|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-03-06 12:05:45.9680|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-03-06 12:05:45.9680|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {d4ba379b-ed04-4785-b05a-ff62577380f2} as the default key. 
+2024-03-06 12:05:45.9680|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {d4ba379b-ed04-4785-b05a-ff62577380f2} was loaded during application startup. 
+2024-03-06 12:05:46.0846|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-03-06 12:05:46.2067|0|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-03-06 12:05:46.2243|0|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'NotificationHub' hub method 'NewEntryAdded' is bound. 
+2024-03-06 12:05:46.2658|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:6084 
+2024-03-06 12:05:46.2854|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WMS UI API 
+2024-03-06 12:05:46.2854|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-03-06 12:05:46.2854|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-03-06 12:05:46.2854|0|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-03-06 12:05:46.2854|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-03-06 12:05:46.2854|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-03-06 12:05:46.2854|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\WMS UI API - Kuster - Check multiple PO\WMS UI API 
+2024-03-06 12:05:46.2911|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-03-06 12:05:46.5150|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN1TKUJU27DK" received FIN. 
+2024-03-06 12:05:46.5150|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKUJU27DK" accepted. 
+2024-03-06 12:05:46.5150|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKUJU27DK" started. 
+2024-03-06 12:05:46.5306|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN1TKUJU27DK" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-06 12:05:46.5306|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKUJU27DK" disconnecting. 
+2024-03-06 12:05:46.5306|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKUJU27DK" stopped. 
+2024-03-06 12:05:46.6251|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKUJU27DL" accepted. 
+2024-03-06 12:05:46.6251|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKUJU27DL" started. 
+2024-03-06 12:05:46.6251|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKUJU27DM" accepted. 
+2024-03-06 12:05:46.6251|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKUJU27DM" started. 
+2024-03-06 12:05:46.6569|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/index.html - - 
+2024-03-06 12:05:46.6840|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-03-06 12:05:46.6840|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-03-06 12:05:46.7559|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-03-06 12:05:46.8562|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKUJU27DN" accepted. 
+2024-03-06 12:05:46.8562|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKUJU27DN" started. 
+2024-03-06 12:05:46.8562|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - 
+2024-03-06 12:05:46.8562|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - 
+2024-03-06 12:05:46.8562|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKUJU27DM" completed keep alive response. 
+2024-03-06 12:05:46.8562|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 3.5850ms 
+2024-03-06 12:05:46.8783|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-03-06 12:05:46.8783|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKUJU27DL" completed keep alive response. 
+2024-03-06 12:05:46.8783|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/index.html - - - 200 - text/html;charset=utf-8 231.8742ms 
+2024-03-06 12:05:46.8966|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKUJU27DN" completed keep alive response. 
+2024-03-06 12:05:46.8966|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.1987ms 
+2024-03-06 12:05:46.9247|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - 
+2024-03-06 12:05:46.9247|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-03-06 12:05:47.0675|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKUJU27DN" completed keep alive response. 
+2024-03-06 12:05:47.0675|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.8416ms 
+2024-03-06 12:05:59.8349|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:6084/api/SupplierGeneratePrintQR/GetItemsByVendorGateInNo application/json 42 
+2024-03-06 12:05:59.8349|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-03-06 12:05:59.8349|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-03-06 12:05:59.8349|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-03-06 12:05:59.8382|0|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:6084'. 
+2024-03-06 12:05:59.8382|0|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution failed. 
+2024-03-06 12:05:59.8382|0|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Request origin http://localhost:6084 does not have permission to access the resource. 
+2024-03-06 12:05:59.8382|0|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:6084'. 
+2024-03-06 12:05:59.8382|0|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-03-06 12:05:59.8382|0|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-03-06 12:05:59.8737|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/SupplierGeneratePrintQR/GetItemsByVendorGateInNo' 
+2024-03-06 12:05:59.8737|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.SupplierGeneratePrintQRController.GetItemsByVendorGateInNo (WMS UI API)' with route pattern 'api/SupplierGeneratePrintQR/GetItemsByVendorGateInNo' is valid for the request path '/api/SupplierGeneratePrintQR/GetItemsByVendorGateInNo' 
+2024-03-06 12:05:59.8737|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.SupplierGeneratePrintQRController.GetItemsByVendorGateInNo (WMS UI API)' 
+2024-03-06 12:05:59.8737|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-03-06 12:06:00.4349|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-03-06 12:06:00.4349|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.SupplierGeneratePrintQRController.GetItemsByVendorGateInNo (WMS UI API)' 
+2024-03-06 12:06:00.4558|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetItemsByVendorGateInNo", controller = "SupplierGeneratePrintQR"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetItemsByVendorGateInNo(WMS_UI_API.Models.SPayload) on controller WMS_UI_API.Controllers.SupplierGeneratePrintQRController (WMS UI API). 
+2024-03-06 12:06:00.4558|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-03-06 12:06:00.4558|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-03-06 12:06:00.4558|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-03-06 12:06:00.4558|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-03-06 12:06:00.4558|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-03-06 12:06:00.4558|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.SupplierGeneratePrintQRController (WMS UI API) 
+2024-03-06 12:06:00.4558|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.SupplierGeneratePrintQRController (WMS UI API) 
+2024-03-06 12:06:00.4558|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'payload' of type 'WMS_UI_API.Models.SPayload' ... 
+2024-03-06 12:06:00.4558|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'payload' of type 'WMS_UI_API.Models.SPayload' using the name '' in request data ... 
+2024-03-06 12:06:00.4558|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2024-03-06 12:06:00.4643|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN1TKUJU27DN", Request id "0HN1TKUJU27DN:00000004": started reading request body. 
+2024-03-06 12:06:00.4643|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN1TKUJU27DN", Request id "0HN1TKUJU27DN:00000004": done reading request body. 
+2024-03-06 12:06:00.4643|0|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'WMS_UI_API.Models.SPayload' 
+2024-03-06 12:06:00.4643|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'payload' of type 'WMS_UI_API.Models.SPayload'. 
+2024-03-06 12:06:00.4643|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'payload' of type 'WMS_UI_API.Models.SPayload'. 
+2024-03-06 12:06:00.4643|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'payload' of type 'WMS_UI_API.Models.SPayload' ... 
+2024-03-06 12:06:00.4643|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'payload' of type 'WMS_UI_API.Models.SPayload'. 
+2024-03-06 12:06:00.4643|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-06 12:06:00.4643|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-06 12:06:00.4643|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-06 12:06:00.4643|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-06 12:06:00.4794|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.SupplierGeneratePrintQRController.GetItemsByVendorGateInNo (WMS UI API) - Validation state: Valid 
+2024-03-06 12:06:00.4794|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.SupplierGeneratePrintQRController.GetItemsByVendorGateInNo (WMS UI API) with arguments (WMS_UI_API.Models.SPayload) 
+2024-03-06 12:06:00.5599|0|INFO|WMS_UI_API.Controllers.SupplierGeneratePrintQRController| Calling SupplierGeneratePrintQRController : GetItemsByVendorGateInNo()  
+2024-03-06 12:06:00.8474|0|INFO|WMS_UI_API.Controllers.SupplierGeneratePrintQRController| SupplierGeneratePrintQRController : GetItemsByVendorGateInNo() Query :  
+                SELECT A.Series, A.DocEntry, A.DocNum, B.LineNum, A.ObjType, cast(CONVERT(DATE, A.DocDate) as nvarchar(10)) DocDate, 
+                       A.CardCode, A.CardName, 
+                       B.LineNum, B.ItemCode, B.Dscription ItemName, CAST(B.Quantity as numeric(19,3)) Qty, 
+                       CAST(B.Price as numeric(19,3)) Price, CAST(ISNULL(C.RecQty,0) as numeric(19,3)) OpenQty, 
+                       D.ItemMngBy, D.QRMngBy, 
+                       CAST((select CONVERT(DATE,MAX(Z.EntryDate)) from QIT_VendorGateIN Z where Z.VendorGateInNo = C.VendorGateInNo) as nvarchar(10)) RecDate,
+                       C.VendorGateInNo, B.Project, B.unitMsr UomCode, B.WhsCode, A.U_LRNo,
+                       case when (select count(1) FROM KCMPL_LIVE0512.dbo.POR3 WHERE DocEntry = A.DocEntry) > 0 then 'Y' else 'N' end FreightApplied
+                FROM KCMPL_LIVE0512.dbo.OPOR A inner join KCMPL_LIVE0512.dbo.POR1 B on A.DocEntry = B.DocEntry 
+                INNER JOIN 
+                ( 
+                    SELECT AA.VendorGateInNo, AA.DocEntry, AA.ObjType, AA.ItemCode, AA.LineNum, AA.BranchID, RecQty--, RecDate  
+                    FROM QIT_VendorGateIN AA 
+                    WHERE ISNULL(AA.BranchID, 1) = 1 and AA.ObjType = '22' AND AA.VendorGateInNo = @vGateInNo AND AA.Canceled = 'N'
+                ) C ON A.ObjType COLLATE SQL_Latin1_General_CP1_CI_AS = C.ObjType AND 
+                        A.DocEntry = C.DocEntry AND ISNULL(A.BPLId,1) = C.BranchID AND 
+                        B.ItemCode COLLATE SQL_Latin1_General_CP1_CI_AS = C.ItemCode AND 
+                        B.LineNum = C.LineNum
+                INNER JOIN 
+                ( 
+                    SELECT A.ItemCode, A.ItemName, QRMngBy, ItemMngBy  
+                    FROM QIT_Item_Master A 
+                ) D ON B.ItemCode COLLATE SQL_Latin1_General_CP1_CI_AS  = D.ItemCode 
+                WHERE ISNULL(A.BPLId, @bId) = @bId AND A.Canceled = 'N'
+                ORDER BY A.DocEntry,C.VendorGateInNo , B.LineNum
+                  
+2024-03-06 12:06:00.9669|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WMS_UI_API.Controllers.SupplierGeneratePrintQRController.GetItemsByVendorGateInNo (WMS UI API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 483.0326ms. 
+2024-03-06 12:06:00.9669|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-06 12:06:00.9669|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-06 12:06:00.9669|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-06 12:06:00.9669|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-06 12:06:00.9669|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-06 12:06:00.9669|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-06 12:06:00.9669|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-03-06 12:06:00.9669|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-03-06 12:06:00.9669|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2024-03-06 12:06:00.9669|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-03-06 12:06:00.9669|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-03-06 12:06:00.9669|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-03-06 12:06:00.9669|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WMS_UI_API.Models.S_GateInDetails, WMS UI API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-03-06 12:06:00.9669|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-03-06 12:06:00.9669|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-06 12:06:00.9669|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-06 12:06:00.9669|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WMS_UI_API.Controllers.SupplierGeneratePrintQRController.GetItemsByVendorGateInNo (WMS UI API) in 522.3654ms 
+2024-03-06 12:06:00.9669|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WMS_UI_API.Controllers.SupplierGeneratePrintQRController.GetItemsByVendorGateInNo (WMS UI API)' 
+2024-03-06 12:06:00.9669|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN1TKUJU27DN" completed keep alive response. 
+2024-03-06 12:06:00.9669|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:6084/api/SupplierGeneratePrintQR/GetItemsByVendorGateInNo application/json 42 - 200 - application/json;+charset=utf-8 1146.6261ms 

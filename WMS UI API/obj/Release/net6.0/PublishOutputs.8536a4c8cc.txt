@@ -1,0 +1,56 @@
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\WMS UI API.exe
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\nlog.config
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\WMS UI API.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\WMS UI API.deps.json
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\WMS UI API.runtimeconfig.json
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\WMS UI API.pdb
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\BCrypt.Net.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.JsonPatch.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.DependencyModel.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Http.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Http.Polly.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Logging.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Options.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Primitives.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Abstractions.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Logging.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Protocols.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.Bson.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\NLog.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\NLog.Extensions.Logging.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\NLog.Web.AspNetCore.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Polly.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Polly.Extensions.Http.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Serilog.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Serilog.AspNetCore.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Serilog.Extensions.Hosting.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Serilog.Extensions.Logging.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Serilog.Formatting.Compact.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Serilog.Settings.Configuration.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Serilog.Sinks.Console.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Serilog.Sinks.Debug.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Serilog.Sinks.File.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Newtonsoft.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\System.Data.SqlClient.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\runtimes\win-x64\native\sni.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\runtimes\win-x86\native\sni.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\WMS UI API - Kuster\WMS UI API\obj\Release\net6.0\PubTmp\Out\SAPBusinessOneSDK.dll

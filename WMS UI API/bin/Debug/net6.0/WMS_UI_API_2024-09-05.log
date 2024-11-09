@@ -1,0 +1,116 @@
+2024-09-05 10:20:08.5441|0|DEBUG|WMS_UI_API.Program|NLogeer initilized in 'Main' 
+2024-09-05 10:20:10.1750|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-09-05 10:20:10.2724|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-09-05 10:20:10.3234|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-06ae8d91-8f6b-4a7b-9e92-1b124a54f87c.xml'. 
+2024-09-05 10:20:10.3371|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-2e082d05-4d25-4361-b289-079a786d185d.xml'. 
+2024-09-05 10:20:10.3371|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-8d5202c6-241b-48a1-bf3b-b9600653df67.xml'. 
+2024-09-05 10:20:10.3548|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-d4ba379b-ed04-4785-b05a-ff62577380f2.xml'. 
+2024-09-05 10:20:10.3729|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {06ae8d91-8f6b-4a7b-9e92-1b124a54f87c}. 
+2024-09-05 10:20:10.3813|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {2e082d05-4d25-4361-b289-079a786d185d}. 
+2024-09-05 10:20:10.3813|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8d5202c6-241b-48a1-bf3b-b9600653df67}. 
+2024-09-05 10:20:10.3813|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {d4ba379b-ed04-4785-b05a-ff62577380f2}. 
+2024-09-05 10:20:10.3813|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {2e082d05-4d25-4361-b289-079a786d185d} with expiration date 2024-10-22 10:19:25Z as default key. 
+2024-09-05 10:20:10.3813|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-09-05 10:20:10.3813|0|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-09-05 10:20:10.3813|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-09-05 10:20:10.3813|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-09-05 10:20:10.3813|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-09-05 10:20:10.3969|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {2e082d05-4d25-4361-b289-079a786d185d} as the default key. 
+2024-09-05 10:20:10.3969|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {2e082d05-4d25-4361-b289-079a786d185d} was loaded during application startup. 
+2024-09-05 10:20:17.2371|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-09-05 10:20:17.3742|0|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-09-05 10:20:17.4277|0|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'NotificationHub' hub method 'NewEntryAdded' is bound. 
+2024-09-05 10:20:17.6022|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:6084 
+2024-09-05 10:20:17.7170|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WMS UI API 
+2024-09-05 10:20:17.7170|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-09-05 10:20:17.7170|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-09-05 10:20:17.7170|0|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-09-05 10:20:17.7170|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-09-05 10:20:17.7234|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-09-05 10:20:17.7234|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\WMS UI API - Kuster - SAP OneTime Connection\WMS UI API 
+2024-09-05 10:20:17.7234|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-09-05 10:20:18.0223|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVI" accepted. 
+2024-09-05 10:20:18.0223|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVJ" accepted. 
+2024-09-05 10:20:18.0223|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVJ" started. 
+2024-09-05 10:20:18.0223|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVI" started. 
+2024-09-05 10:20:18.7473|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVK" accepted. 
+2024-09-05 10:20:18.7473|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVK" started. 
+2024-09-05 10:20:18.7568|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVL" accepted. 
+2024-09-05 10:20:18.7568|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVL" started. 
+2024-09-05 10:20:18.8155|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger - - 
+2024-09-05 10:20:18.8608|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-09-05 10:20:18.8608|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-09-05 10:20:18.9537|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVK" completed keep alive response. 
+2024-09-05 10:20:18.9537|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger - - - 301 0 - 143.4606ms 
+2024-09-05 10:20:18.9715|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/index.html - - 
+2024-09-05 10:20:18.9715|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-09-05 10:20:19.0453|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-09-05 10:20:19.2069|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/swagger-ui.css - - 
+2024-09-05 10:20:19.2069|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-09-05 10:20:19.2098|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVM" accepted. 
+2024-09-05 10:20:19.2098|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVM" started. 
+2024-09-05 10:20:19.2098|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVN" accepted. 
+2024-09-05 10:20:19.2098|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVN" started. 
+2024-09-05 10:20:19.2098|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVO" accepted. 
+2024-09-05 10:20:19.2098|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/swagger-ui-bundle.js - - 
+2024-09-05 10:20:19.2098|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVO" started. 
+2024-09-05 10:20:19.2098|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-09-05 10:20:19.2098|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - 
+2024-09-05 10:20:19.2098|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVP" accepted. 
+2024-09-05 10:20:19.2098|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVP" started. 
+2024-09-05 10:20:19.2098|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - 
+2024-09-05 10:20:19.2098|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/swagger-ui-standalone-preset.js - - 
+2024-09-05 10:20:19.2098|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-09-05 10:20:19.2244|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-09-05 10:20:19.2244|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-09-05 10:20:19.2244|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-09-05 10:20:19.2244|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVO" completed keep alive response. 
+2024-09-05 10:20:19.2244|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 16.0097ms 
+2024-09-05 10:20:19.2583|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-09-05 10:20:19.2583|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVK" completed keep alive response. 
+2024-09-05 10:20:19.2583|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/index.html - - - 200 - text/html;charset=utf-8 286.9926ms 
+2024-09-05 10:20:19.2861|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2024-09-05 10:20:19.2861|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVL" completed keep alive response. 
+2024-09-05 10:20:19.2861|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2024-09-05 10:20:19.2861|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/swagger-ui.css - - - 200 143632 text/css 79.3697ms 
+2024-09-05 10:20:19.2861|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVN" completed keep alive response. 
+2024-09-05 10:20:19.2861|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 69.0963ms 
+2024-09-05 10:20:19.2861|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVP" completed keep alive response. 
+2024-09-05 10:20:19.2861|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 83.0470ms 
+2024-09-05 10:20:19.3058|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2024-09-05 10:20:19.3058|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVM" completed keep alive response. 
+2024-09-05 10:20:19.3058|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 94.6386ms 
+2024-09-05 10:20:19.3919|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - 
+2024-09-05 10:20:19.3919|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-09-05 10:20:19.4092|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/favicon-32x32.png - - 
+2024-09-05 10:20:19.4092|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-09-05 10:20:19.4092|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-09-05 10:20:19.4092|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2024-09-05 10:20:19.4092|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVP" completed keep alive response. 
+2024-09-05 10:20:19.4092|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/favicon-32x32.png - - - 200 628 image/png 0.3522ms 
+2024-09-05 10:20:19.5666|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVM" completed keep alive response. 
+2024-09-05 10:20:19.5666|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 174.9196ms 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN6DCOUMAUVM" received FIN. 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN6DCOUMAUVK" received FIN. 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN6DCOUMAUVL" received FIN. 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN6DCOUMAUVN" received FIN. 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN6DCOUMAUVP" received FIN. 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN6DCOUMAUVO" received FIN. 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN6DCOUMAUVN" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN6DCOUMAUVM" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN6DCOUMAUVL" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVL" disconnecting. 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVN" disconnecting. 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN6DCOUMAUVK" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVK" disconnecting. 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN6DCOUMAUVP" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVP" disconnecting. 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVM" disconnecting. 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVO" disconnecting. 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN6DCOUMAUVO" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVL" stopped. 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVM" stopped. 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVN" stopped. 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVP" stopped. 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVK" stopped. 
+2024-09-05 10:20:21.8116|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN6DCOUMAUVO" stopped. 

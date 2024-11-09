@@ -1,0 +1,926 @@
+2024-04-19 13:43:19.0356|0|DEBUG|WMS_UI_API.Program|NLogeer initilized in 'Main' 
+2024-04-19 13:43:20.9103|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-04-19 13:43:21.0066|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-04-19 13:43:21.0497|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-8d5202c6-241b-48a1-bf3b-b9600653df67.xml'. 
+2024-04-19 13:43:21.0497|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-d4ba379b-ed04-4785-b05a-ff62577380f2.xml'. 
+2024-04-19 13:43:21.0780|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8d5202c6-241b-48a1-bf3b-b9600653df67}. 
+2024-04-19 13:43:21.0780|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {d4ba379b-ed04-4785-b05a-ff62577380f2}. 
+2024-04-19 13:43:21.0780|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {d4ba379b-ed04-4785-b05a-ff62577380f2} with expiration date 2024-04-24 11:52:15Z as default key. 
+2024-04-19 13:43:21.0780|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-04-19 13:43:21.0780|0|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-04-19 13:43:21.0780|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-04-19 13:43:21.0780|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-04-19 13:43:21.0780|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-04-19 13:43:21.0780|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {d4ba379b-ed04-4785-b05a-ff62577380f2} as the default key. 
+2024-04-19 13:43:21.0780|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {d4ba379b-ed04-4785-b05a-ff62577380f2} was loaded during application startup. 
+2024-04-19 13:43:24.8796|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-04-19 13:43:25.0174|0|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-04-19 13:43:25.1016|0|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'NotificationHub' hub method 'NewEntryAdded' is bound. 
+2024-04-19 13:43:25.2817|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:6084 
+2024-04-19 13:43:25.3987|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WMS UI API 
+2024-04-19 13:43:25.3987|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-04-19 13:43:25.3987|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-04-19 13:43:25.3987|0|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-04-19 13:43:25.3987|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-04-19 13:43:25.3987|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-04-19 13:43:25.3987|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\WMS UI API - Kuster - SAP OneTime Connection\WMS UI API 
+2024-04-19 13:43:25.3987|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-04-19 13:43:25.5332|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JN" accepted. 
+2024-04-19 13:43:25.5332|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JN" started. 
+2024-04-19 13:43:25.6648|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JO" accepted. 
+2024-04-19 13:43:25.6648|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JO" started. 
+2024-04-19 13:43:26.2855|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JP" accepted. 
+2024-04-19 13:43:26.2855|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JQ" accepted. 
+2024-04-19 13:43:26.2855|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JP" started. 
+2024-04-19 13:43:26.2855|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JQ" started. 
+2024-04-19 13:43:26.3404|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/index.html - - 
+2024-04-19 13:43:26.3891|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-04-19 13:43:26.3891|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-19 13:43:26.5134|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-04-19 13:43:26.7363|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JR" accepted. 
+2024-04-19 13:43:26.7363|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JR" started. 
+2024-04-19 13:43:26.7363|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - 
+2024-04-19 13:43:26.7486|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - 
+2024-04-19 13:43:26.7486|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JP" completed keep alive response. 
+2024-04-19 13:43:26.7486|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 14.4625ms 
+2024-04-19 13:43:26.7486|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-04-19 13:43:26.7486|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JQ" completed keep alive response. 
+2024-04-19 13:43:26.7486|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/index.html - - - 200 - text/html;charset=utf-8 422.3422ms 
+2024-04-19 13:43:26.8109|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JR" completed keep alive response. 
+2024-04-19 13:43:26.8109|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 62.4906ms 
+2024-04-19 13:43:26.8789|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - 
+2024-04-19 13:43:26.8789|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-19 13:43:27.0656|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JR" completed keep alive response. 
+2024-04-19 13:43:27.0656|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 186.9629ms 
+2024-04-19 13:43:29.3807|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3092B4Q0JR" received FIN. 
+2024-04-19 13:43:29.3807|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3092B4Q0JQ" received FIN. 
+2024-04-19 13:43:29.3807|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3092B4Q0JP" received FIN. 
+2024-04-19 13:43:29.3819|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3092B4Q0JR" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-19 13:43:29.3819|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3092B4Q0JP" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-19 13:43:29.3819|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3092B4Q0JQ" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-19 13:43:29.3819|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JQ" disconnecting. 
+2024-04-19 13:43:29.3819|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JP" disconnecting. 
+2024-04-19 13:43:29.3819|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JR" disconnecting. 
+2024-04-19 13:43:29.3913|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JR" stopped. 
+2024-04-19 13:43:29.3913|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JP" stopped. 
+2024-04-19 13:43:29.3913|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JQ" stopped. 
+2024-04-19 13:44:20.3416|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JS" accepted. 
+2024-04-19 13:44:20.3416|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JS" started. 
+2024-04-19 13:44:20.3416|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/api/StockOpening/ItemData?BranchID=1&WhsCode=vd-store&AbsEntry=6589&ProjectCode=40-42807 - - 
+2024-04-19 13:44:20.3416|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-19 13:44:20.3416|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-04-19 13:44:20.3416|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /api/StockOpening/ItemData does not match a supported file type 
+2024-04-19 13:44:20.3416|0|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-04-19 13:44:20.3947|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/StockOpening/ItemData' 
+2024-04-19 13:44:20.3947|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API)' with route pattern 'api/StockOpening/ItemData' is valid for the request path '/api/StockOpening/ItemData' 
+2024-04-19 13:44:20.3947|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API)' 
+2024-04-19 13:44:20.3947|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-04-19 13:44:20.5007|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-04-19 13:44:20.5025|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API)' 
+2024-04-19 13:44:20.5357|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetItemData", controller = "StockOpening"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WMS_UI_API.Models.OS_ItemData]]] GetItemData(Int32, System.String, Int32, System.String) on controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API). 
+2024-04-19 13:44:20.5357|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-04-19 13:44:20.5357|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-04-19 13:44:20.5357|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-04-19 13:44:20.5357|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-04-19 13:44:20.5357|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-04-19 13:44:20.5357|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API) 
+2024-04-19 13:44:20.5357|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API) 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'BranchID' of type 'System.Int32' ... 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'BranchID' of type 'System.Int32' using the name 'BranchID' in request data ... 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'BranchID' of type 'System.Int32'. 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'BranchID' of type 'System.Int32'. 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'BranchID' of type 'System.Int32' ... 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'BranchID' of type 'System.Int32'. 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'WhsCode' of type 'System.String' ... 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'WhsCode' of type 'System.String' using the name 'WhsCode' in request data ... 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'WhsCode' of type 'System.String'. 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'WhsCode' of type 'System.String'. 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'WhsCode' of type 'System.String' ... 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'WhsCode' of type 'System.String'. 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'AbsEntry' of type 'System.Int32' ... 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'AbsEntry' of type 'System.Int32' using the name 'AbsEntry' in request data ... 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'AbsEntry' of type 'System.Int32'. 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'AbsEntry' of type 'System.Int32'. 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'AbsEntry' of type 'System.Int32' ... 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'AbsEntry' of type 'System.Int32'. 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'ProjectCode' of type 'System.String' ... 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'ProjectCode' of type 'System.String' using the name 'ProjectCode' in request data ... 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'ProjectCode' of type 'System.String'. 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'ProjectCode' of type 'System.String'. 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'ProjectCode' of type 'System.String' ... 
+2024-04-19 13:44:20.5465|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'ProjectCode' of type 'System.String'. 
+2024-04-19 13:44:20.5465|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-04-19 13:44:20.5465|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-04-19 13:44:20.5465|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-04-19 13:44:20.5465|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-04-19 13:44:20.5465|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API) - Validation state: Valid 
+2024-04-19 13:44:20.5465|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API) with arguments (1, vd-store, 6589, 40-42807) 
+2024-04-19 13:44:20.7084|0|INFO|WMS_UI_API.Controllers.StockOpeningController| Calling StockOpeningController : GetItemData()  
+2024-04-19 13:44:20.7639|0|INFO|WMS_UI_API.Controllers.StockOpeningController| StockOpeningController : GetItemData() Query :                 
+                    WITH _BinWiseData AS 
+                    (
+                        SELECT A.ItemCode , PrjCode, SUM(A.InQty) - SUM(A.OutQty) AS NetQty
+                        FROM KCMPL_LIVE.dbo.B1_OinmWithBinTransfer A
+                             INNER JOIN KCMPL_LIVE.dbo.OBTL B ON A.InvPLMessageID = B.MessageID
+                             INNER JOIN KCMPL_LIVE.dbo.OBIN C ON C.AbsEntry = B.BinAbs
+                        WHERE /* A.ItemCode = '130040600064' AND */ A.Warehouse = @whsCode AND A.PrjCode = @proj AND C.AbsEntry = @bin
+                        GROUP BY A.ItemCode, A.PrjCode
+                        HAVING (SUM(A.InQty) - SUM(A.OutQty)) > 0
+                    )
+                    , _BatchWiseData AS 
+                    (
+                        SELECT DISTINCT B.BinCode, D.DistNumber, D.LotNumber, A.ItemCode, B.WhsCode, A.OnHandQty
+                        FROM KCMPL_LIVE.dbo.OBBQ A
+                             LEFT JOIN KCMPL_LIVE.dbo.OBIN B ON B.WhsCode = A.WhsCode AND B.AbsEntry = A.BinAbs
+                             LEFT JOIN KCMPL_LIVE.dbo.OIBT C ON A.ItemCode = C.ItemCode AND A.WhsCode = C.WhsCode
+                             LEFT JOIN KCMPL_LIVE.dbo.OBTN D ON A.SnBMDAbs = D.AbsEntry
+                        WHERE /*A.ItemCode = '130040600064' AND */ B.WhsCode = @whsCode AND D.LotNumber = @proj AND 
+                              B.AbsEntry = @bin AND A.OnHandQty > 0 
+                    )
+ 
+                    SELECT WhsCode, BinCode Bin, ItemCode, ItemName, SAPStock, QITStock, 
+                           SAPStock - QITStock EligibleStock, null OpeningStock, DistNumber 
+                    FROM
+                    (
+                        SELECT BB.WhsCode WhsCode, BB.BinCode Bin, BB.ItemCode, CC.ItemName, BB.DistNumber,   
+                               AA.PrjCode, AA.NetQty, BB.BinCode, BB.OnHandQty SAPStock,
+	                    (
+                            SELECT ISNULL(SUM(ISNULL(stock,0)),0)  
+                            FROM 
+                            (
+                                SELECT CASE WHEN A.POtoGRPO > 0 THEN 
+                                            (POtoGRPO + InQty - OutQty - IssueQty - DeliverQty + ReceiptQty + OpeningQty)
+                                        ELSE 
+                                            (InQty - OutQty - IssueQty - DeliverQty + ReceiptQty + OpeningQty)
+                                        END Stock
+                                FROM 
+                                (
+                                    SELECT A.WhsCode, A.WhsName,
+                                    (
+                                        ISNULL((	
+                                           SELECT sum(Z.Qty) POtoGRPOQty FROM [QIT_QRStock_InvTrans] Z 
+                                           INNER JOIN QIT_GateIN Z1 on Z.GateInNo = Z1.GateInNo and Z.ItemCode = Z1.ItemCode
+                                           WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS = BB.ItemCode and 
+                                                 Z.FromObjType = '22' and Z.ToObjType = '67' and  
+                                                 Z.ToWhs = A.WhsCode and ISNULL(Z.BranchID, 1) = 1 and 
+                                                 Z1.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode AND
+								                 Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS= BB.DistNumber
+                                         ),0)
+                                    ) POtoGRPO,
+                                    (
+                                        ISNULL((
+                                        SELECT sum(Z.Qty) InQty FROM [QIT_QRStock_InvTrans] Z 
+                                        INNER JOIN QIT_GateIN Z1 on Z.GateInNo = Z1.GateInNo and Z.ItemCode = Z1.ItemCode
+                                        WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = BB.ItemCode and 
+                                                (Z.FromObjType <> '22') AND 
+                                                Z.ToWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                                ISNULL(Z.BranchID, 1) = 1 and 
+                                                Z1.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode AND
+								                Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS = BB.DistNumber
+                                        ),0) 
+                                    ) InQty,
+                                    (
+                                        ISNULL((
+                                        SELECT sum(Z.Qty) OutQty FROM [QIT_QRStock_InvTrans] Z 
+                                        INNER JOIN QIT_GateIN Z1 on Z.GateInNo = Z1.GateInNo and Z.ItemCode = Z1.ItemCode
+                                        WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = BB.ItemCode and 
+                                                (Z.FromObjType <> '22') and
+                                                Z.FromWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                                ISNULL(Z.BranchID, 1) = 1 and 
+                                                Z1.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode AND
+								                Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS = BB.DistNumber
+
+                                        ),0)
+                                    ) OutQty,
+                                    (
+                                      ISNULL((
+                                        SELECT sum(Z.Qty) IssueQty FROM QIT_QRStock_ProToIssue Z 
+				                                    INNER JOIN QIT_QR_Detail Z1 on Z.QRCodeID = Z1.QRCodeID
+				                                    INNER JOIN QIT_GateIN Z2 on Z1.GateInNo = Z2.GateInNo and Z.ItemCode = Z2.ItemCode
+                                        WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = BB.ItemCode and  
+                                              Z.FromWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                              ISNULL(Z.BranchID, 1) = 1 and 
+                                              Z2.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode and
+								              Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS = BB.DistNumber
+                                      ),0)
+                                    ) IssueQty,
+                                    (
+                                      ISNULL((
+                                        SELECT sum(Z.Qty) DeliverQty FROM QIT_QRStock_SOToDelivery Z
+				                                    inner join QIT_QR_Detail Z1 on Z.QRCodeID = Z1.QRCodeID
+				                                    inner join QIT_GateIN Z2 on Z1.GateInNo = Z2.GateInNo and Z.ItemCode = Z2.ItemCode
+                                        WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = BB.ItemCode and  
+                                           Z.FromWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                           ISNULL(Z.BranchID, 1) = 1 and 
+                                           Z2.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode and
+							               Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS= BB.DistNumber
+                                      ),0)
+                                    ) DeliverQty,
+                                    (
+                                      ISNULL((
+                                        SELECT sum(Z.Qty) ReceiptQty FROM QIT_QRStock_ProToReceipt Z
+                                        INNER JOIN QIT_QR_Detail Z1 on Z.QRCodeID = Z1.QRCodeID
+                                        INNER JOIN QIT_GateIN Z2 on Z1.GateInNo = Z2.GateInNo and Z.ItemCode = Z2.ItemCode
+                                        WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = BB.ItemCode and 
+                                              Z.ToWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                              ISNULL(Z.BranchID, 1) = 1 and 
+                                             Z2.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode and
+						 		             Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS= BB.DistNumber
+                                      ),0)
+                                    ) ReceiptQty,
+                                    (
+                                        ISNULL((
+                                        SELECT sum(Z.OpeningQty) OpeningQty FROM QIT_OpeningStock Z 
+                                        WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = BB.ItemCode and 
+                                                Z.WhsCode collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                                ISNULL(Z.BranchID, 1) = 1 and 
+                                                Z.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode and
+								                Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS = BB.DistNumber
+                                        ),0)
+                                    ) OpeningQty
+                                    FROM QIT_Warehouse_Master AS A
+                                    WHERE Locked = 'N' and A.WhsCode collate SQL_Latin1_General_CP850_CI_AS = BB.WhsCode
+				                ) as A  
+                            ) as A 
+                            WHERE A.Stock > 0   
+                        ) QITStock
+                        FROM _BinWiseData AA
+                             INNER JOIN _BatchWiseData BB ON AA.ItemCode = BB.ItemCode AND AA.PrjCode = BB.LotNumber 
+                             INNER JOIN KCMPL_LIVE.dbo.OITM CC ON  BB.ItemCode = CC.ItemCode
+                    ) AS A
+                    WHERE A.QITStock <= A.SAPStock
+                    FOR BROWSE
+                      
+2024-04-19 13:44:37.1442|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 16583.3218ms. 
+2024-04-19 13:44:37.1442|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-04-19 13:44:37.1442|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-04-19 13:44:37.1442|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-04-19 13:44:37.1442|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-04-19 13:44:37.1442|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-04-19 13:44:37.1442|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-04-19 13:44:37.1442|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2024-04-19 13:44:37.1442|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-04-19 13:44:37.1442|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-04-19 13:44:37.1442|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-04-19 13:44:37.1442|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-04-19 13:44:37.1442|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-04-19 13:44:37.1442|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-04-19 13:44:37.1442|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType4`3[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2024-04-19 13:44:37.1550|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2024-04-19 13:44:37.1550|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-04-19 13:44:37.1550|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-04-19 13:44:37.1550|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API) in 16618.5283ms 
+2024-04-19 13:44:37.1550|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API)' 
+2024-04-19 13:44:37.1550|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JS" completed keep alive response. 
+2024-04-19 13:44:37.1550|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/api/StockOpening/ItemData?BranchID=1&WhsCode=vd-store&AbsEntry=6589&ProjectCode=40-42807 - - - 400 - application/json;+charset=utf-8 16816.3275ms 
+2024-04-19 13:45:03.7258|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3092B4Q0JS" received FIN. 
+2024-04-19 13:45:03.7258|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JS" disconnecting. 
+2024-04-19 13:45:03.7258|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JS" stopped. 
+2024-04-19 13:45:03.7446|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3092B4Q0JS" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-19 13:48:29.5087|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JT" accepted. 
+2024-04-19 13:48:29.5087|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JT" started. 
+2024-04-19 13:48:29.5087|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/api/StockOpening/ItemData?BranchID=1&WhsCode=vd-store&AbsEntry=6589&ProjectCode=40-53723.13 - - 
+2024-04-19 13:48:29.5334|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-19 13:48:29.5334|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-04-19 13:48:29.5334|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /api/StockOpening/ItemData does not match a supported file type 
+2024-04-19 13:48:29.5334|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/StockOpening/ItemData' 
+2024-04-19 13:48:29.5334|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API)' with route pattern 'api/StockOpening/ItemData' is valid for the request path '/api/StockOpening/ItemData' 
+2024-04-19 13:48:29.5334|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API)' 
+2024-04-19 13:48:29.5334|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-04-19 13:48:29.5566|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-04-19 13:48:29.5566|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API)' 
+2024-04-19 13:48:29.5799|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetItemData", controller = "StockOpening"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WMS_UI_API.Models.OS_ItemData]]] GetItemData(Int32, System.String, Int32, System.String) on controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API). 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API) 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API) 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'BranchID' of type 'System.Int32' ... 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'BranchID' of type 'System.Int32' using the name 'BranchID' in request data ... 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'BranchID' of type 'System.Int32'. 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'BranchID' of type 'System.Int32'. 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'BranchID' of type 'System.Int32' ... 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'BranchID' of type 'System.Int32'. 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'WhsCode' of type 'System.String' ... 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'WhsCode' of type 'System.String' using the name 'WhsCode' in request data ... 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'WhsCode' of type 'System.String'. 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'WhsCode' of type 'System.String'. 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'WhsCode' of type 'System.String' ... 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'WhsCode' of type 'System.String'. 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'AbsEntry' of type 'System.Int32' ... 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'AbsEntry' of type 'System.Int32' using the name 'AbsEntry' in request data ... 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'AbsEntry' of type 'System.Int32'. 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'AbsEntry' of type 'System.Int32'. 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'AbsEntry' of type 'System.Int32' ... 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'AbsEntry' of type 'System.Int32'. 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'ProjectCode' of type 'System.String' ... 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'ProjectCode' of type 'System.String' using the name 'ProjectCode' in request data ... 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'ProjectCode' of type 'System.String'. 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'ProjectCode' of type 'System.String'. 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'ProjectCode' of type 'System.String' ... 
+2024-04-19 13:48:29.5799|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'ProjectCode' of type 'System.String'. 
+2024-04-19 13:48:29.5799|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-04-19 13:48:29.5799|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-04-19 13:48:29.5799|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-04-19 13:48:29.5799|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-04-19 13:48:29.5799|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API) - Validation state: Valid 
+2024-04-19 13:48:29.5799|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API) with arguments (1, vd-store, 6589, 40-53723.13) 
+2024-04-19 13:48:29.5799|0|INFO|WMS_UI_API.Controllers.StockOpeningController| Calling StockOpeningController : GetItemData()  
+2024-04-19 13:48:29.5799|0|INFO|WMS_UI_API.Controllers.StockOpeningController| StockOpeningController : GetItemData() Query :                 
+                    WITH _BinWiseData AS 
+                    (
+                        SELECT A.ItemCode , PrjCode, SUM(A.InQty) - SUM(A.OutQty) AS NetQty
+                        FROM KCMPL_LIVE.dbo.B1_OinmWithBinTransfer A
+                             INNER JOIN KCMPL_LIVE.dbo.OBTL B ON A.InvPLMessageID = B.MessageID
+                             INNER JOIN KCMPL_LIVE.dbo.OBIN C ON C.AbsEntry = B.BinAbs
+                        WHERE /* A.ItemCode = '130040600064' AND */ A.Warehouse = @whsCode AND A.PrjCode = @proj AND C.AbsEntry = @bin
+                        GROUP BY A.ItemCode, A.PrjCode
+                        HAVING (SUM(A.InQty) - SUM(A.OutQty)) > 0
+                    )
+                    , _BatchWiseData AS 
+                    (
+                        SELECT DISTINCT B.BinCode, D.DistNumber, D.LotNumber, A.ItemCode, B.WhsCode, A.OnHandQty
+                        FROM KCMPL_LIVE.dbo.OBBQ A
+                             LEFT JOIN KCMPL_LIVE.dbo.OBIN B ON B.WhsCode = A.WhsCode AND B.AbsEntry = A.BinAbs
+                             LEFT JOIN KCMPL_LIVE.dbo.OIBT C ON A.ItemCode = C.ItemCode AND A.WhsCode = C.WhsCode
+                             LEFT JOIN KCMPL_LIVE.dbo.OBTN D ON A.SnBMDAbs = D.AbsEntry
+                        WHERE /*A.ItemCode = '130040600064' AND */ B.WhsCode = @whsCode AND D.LotNumber = @proj AND 
+                              B.AbsEntry = @bin AND A.OnHandQty > 0 
+                    )
+ 
+                    SELECT WhsCode, BinCode Bin, ItemCode, ItemName, SAPStock, QITStock, 
+                           SAPStock - QITStock EligibleStock, null OpeningStock, DistNumber 
+                    FROM
+                    (
+                        SELECT BB.WhsCode WhsCode, BB.BinCode Bin, BB.ItemCode, CC.ItemName, BB.DistNumber,   
+                               AA.PrjCode, AA.NetQty, BB.BinCode, BB.OnHandQty SAPStock,
+	                    (
+                            SELECT ISNULL(SUM(ISNULL(stock,0)),0)  
+                            FROM 
+                            (
+                                SELECT CASE WHEN A.POtoGRPO > 0 THEN 
+                                            (POtoGRPO + InQty - OutQty - IssueQty - DeliverQty + ReceiptQty + OpeningQty)
+                                        ELSE 
+                                            (InQty - OutQty - IssueQty - DeliverQty + ReceiptQty + OpeningQty)
+                                        END Stock
+                                FROM 
+                                (
+                                    SELECT A.WhsCode, A.WhsName,
+                                    (
+                                        ISNULL((	
+                                           SELECT sum(Z.Qty) POtoGRPOQty FROM [QIT_QRStock_InvTrans] Z 
+                                           INNER JOIN QIT_GateIN Z1 on Z.GateInNo = Z1.GateInNo and Z.ItemCode = Z1.ItemCode
+                                           WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS = BB.ItemCode and 
+                                                 Z.FromObjType = '22' and Z.ToObjType = '67' and  
+                                                 Z.ToWhs = A.WhsCode and ISNULL(Z.BranchID, 1) = 1 and 
+                                                 Z1.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode AND
+								                 Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS= BB.DistNumber
+                                         ),0)
+                                    ) POtoGRPO,
+                                    (
+                                        ISNULL((
+                                        SELECT sum(Z.Qty) InQty FROM [QIT_QRStock_InvTrans] Z 
+                                        INNER JOIN QIT_GateIN Z1 on Z.GateInNo = Z1.GateInNo and Z.ItemCode = Z1.ItemCode
+                                        WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = BB.ItemCode and 
+                                                (Z.FromObjType <> '22') AND 
+                                                Z.ToWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                                ISNULL(Z.BranchID, 1) = 1 and 
+                                                Z1.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode AND
+								                Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS = BB.DistNumber
+                                        ),0) 
+                                    ) InQty,
+                                    (
+                                        ISNULL((
+                                        SELECT sum(Z.Qty) OutQty FROM [QIT_QRStock_InvTrans] Z 
+                                        INNER JOIN QIT_GateIN Z1 on Z.GateInNo = Z1.GateInNo and Z.ItemCode = Z1.ItemCode
+                                        WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = BB.ItemCode and 
+                                                (Z.FromObjType <> '22') and
+                                                Z.FromWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                                ISNULL(Z.BranchID, 1) = 1 and 
+                                                Z1.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode AND
+								                Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS = BB.DistNumber
+
+                                        ),0)
+                                    ) OutQty,
+                                    (
+                                      ISNULL((
+                                        SELECT sum(Z.Qty) IssueQty FROM QIT_QRStock_ProToIssue Z 
+				                                    INNER JOIN QIT_QR_Detail Z1 on Z.QRCodeID = Z1.QRCodeID
+				                                    INNER JOIN QIT_GateIN Z2 on Z1.GateInNo = Z2.GateInNo and Z.ItemCode = Z2.ItemCode
+                                        WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = BB.ItemCode and  
+                                              Z.FromWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                              ISNULL(Z.BranchID, 1) = 1 and 
+                                              Z2.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode and
+								              Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS = BB.DistNumber
+                                      ),0)
+                                    ) IssueQty,
+                                    (
+                                      ISNULL((
+                                        SELECT sum(Z.Qty) DeliverQty FROM QIT_QRStock_SOToDelivery Z
+				                                    inner join QIT_QR_Detail Z1 on Z.QRCodeID = Z1.QRCodeID
+				                                    inner join QIT_GateIN Z2 on Z1.GateInNo = Z2.GateInNo and Z.ItemCode = Z2.ItemCode
+                                        WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = BB.ItemCode and  
+                                           Z.FromWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                           ISNULL(Z.BranchID, 1) = 1 and 
+                                           Z2.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode and
+							               Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS= BB.DistNumber
+                                      ),0)
+                                    ) DeliverQty,
+                                    (
+                                      ISNULL((
+                                        SELECT sum(Z.Qty) ReceiptQty FROM QIT_QRStock_ProToReceipt Z
+                                        INNER JOIN QIT_QR_Detail Z1 on Z.QRCodeID = Z1.QRCodeID
+                                        INNER JOIN QIT_GateIN Z2 on Z1.GateInNo = Z2.GateInNo and Z.ItemCode = Z2.ItemCode
+                                        WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = BB.ItemCode and 
+                                              Z.ToWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                              ISNULL(Z.BranchID, 1) = 1 and 
+                                             Z2.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode and
+						 		             Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS= BB.DistNumber
+                                      ),0)
+                                    ) ReceiptQty,
+                                    (
+                                        ISNULL((
+                                        SELECT sum(Z.OpeningQty) OpeningQty FROM QIT_OpeningStock Z 
+                                        WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = BB.ItemCode and 
+                                                Z.WhsCode collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                                ISNULL(Z.BranchID, 1) = 1 and 
+                                                Z.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode and
+								                Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS = BB.DistNumber
+                                        ),0)
+                                    ) OpeningQty
+                                    FROM QIT_Warehouse_Master AS A
+                                    WHERE Locked = 'N' and A.WhsCode collate SQL_Latin1_General_CP850_CI_AS = BB.WhsCode
+				                ) as A  
+                            ) as A 
+                            WHERE A.Stock > 0   
+                        ) QITStock
+                        FROM _BinWiseData AA
+                             INNER JOIN _BatchWiseData BB ON AA.ItemCode = BB.ItemCode AND AA.PrjCode = BB.LotNumber 
+                             INNER JOIN KCMPL_LIVE.dbo.OITM CC ON  BB.ItemCode = CC.ItemCode
+                    ) AS A
+                    WHERE A.QITStock <= A.SAPStock
+                    FOR BROWSE
+                      
+2024-04-19 13:48:32.8073|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3225.3105ms. 
+2024-04-19 13:48:32.8073|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-04-19 13:48:32.8073|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-04-19 13:48:32.8073|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-04-19 13:48:32.8073|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-04-19 13:48:32.8073|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-04-19 13:48:32.8073|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-04-19 13:48:32.8073|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-04-19 13:48:32.8073|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-04-19 13:48:32.8073|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-04-19 13:48:32.8073|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-04-19 13:48:32.8073|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-04-19 13:48:32.8073|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-04-19 13:48:32.8073|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-04-19 13:48:32.8073|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WMS_UI_API.Models.OS_ItemData, WMS UI API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-04-19 13:48:32.8162|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-04-19 13:48:32.8162|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-04-19 13:48:32.8162|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-04-19 13:48:32.8162|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API) in 3236.0536ms 
+2024-04-19 13:48:32.8162|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API)' 
+2024-04-19 13:48:32.8162|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3092B4Q0JT" completed keep alive response. 
+2024-04-19 13:48:32.8162|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/api/StockOpening/ItemData?BranchID=1&WhsCode=vd-store&AbsEntry=6589&ProjectCode=40-53723.13 - - - 200 - application/json;+charset=utf-8 3306.2108ms 
+2024-04-19 13:49:04.4504|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/api/StockOpening/ItemData?BranchID=1&WhsCode=vd-store&AbsEntry=6589&ProjectCode=40-53723.13 - - 
+2024-04-19 13:49:04.4508|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /api/StockOpening/ItemData does not match a supported file type 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/StockOpening/ItemData' 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API)' with route pattern 'api/StockOpening/ItemData' is valid for the request path '/api/StockOpening/ItemData' 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API)' 
+2024-04-19 13:49:04.4508|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-04-19 13:49:04.4508|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API)' 
+2024-04-19 13:49:04.4508|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetItemData", controller = "StockOpening"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WMS_UI_API.Models.OS_ItemData]]] GetItemData(Int32, System.String, Int32, System.String) on controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API). 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API) 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API) 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'BranchID' of type 'System.Int32' ... 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'BranchID' of type 'System.Int32' using the name 'BranchID' in request data ... 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'BranchID' of type 'System.Int32'. 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'BranchID' of type 'System.Int32'. 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'BranchID' of type 'System.Int32' ... 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'BranchID' of type 'System.Int32'. 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'WhsCode' of type 'System.String' ... 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'WhsCode' of type 'System.String' using the name 'WhsCode' in request data ... 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'WhsCode' of type 'System.String'. 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'WhsCode' of type 'System.String'. 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'WhsCode' of type 'System.String' ... 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'WhsCode' of type 'System.String'. 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'AbsEntry' of type 'System.Int32' ... 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'AbsEntry' of type 'System.Int32' using the name 'AbsEntry' in request data ... 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'AbsEntry' of type 'System.Int32'. 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'AbsEntry' of type 'System.Int32'. 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'AbsEntry' of type 'System.Int32' ... 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'AbsEntry' of type 'System.Int32'. 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'ProjectCode' of type 'System.String' ... 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'ProjectCode' of type 'System.String' using the name 'ProjectCode' in request data ... 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'ProjectCode' of type 'System.String'. 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'ProjectCode' of type 'System.String'. 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'ProjectCode' of type 'System.String' ... 
+2024-04-19 13:49:04.4508|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'ProjectCode' of type 'System.String'. 
+2024-04-19 13:49:04.4508|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-04-19 13:49:04.4508|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-04-19 13:49:04.4508|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-04-19 13:49:04.4508|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-04-19 13:49:04.4508|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API) - Validation state: Valid 
+2024-04-19 13:49:04.4508|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API) with arguments (1, vd-store, 6589, 40-53723.13) 
+2024-04-19 13:49:04.4508|0|INFO|WMS_UI_API.Controllers.StockOpeningController| Calling StockOpeningController : GetItemData()  
+2024-04-19 13:49:04.4508|0|INFO|WMS_UI_API.Controllers.StockOpeningController| StockOpeningController : GetItemData() Query :                 
+                    WITH _BinWiseData AS 
+                    (
+                        SELECT A.ItemCode , PrjCode, SUM(A.InQty) - SUM(A.OutQty) AS NetQty
+                        FROM KCMPL_LIVE.dbo.B1_OinmWithBinTransfer A
+                             INNER JOIN KCMPL_LIVE.dbo.OBTL B ON A.InvPLMessageID = B.MessageID
+                             INNER JOIN KCMPL_LIVE.dbo.OBIN C ON C.AbsEntry = B.BinAbs
+                        WHERE /* A.ItemCode = '130040600064' AND */ A.Warehouse = @whsCode AND A.PrjCode = @proj AND C.AbsEntry = @bin
+                        GROUP BY A.ItemCode, A.PrjCode
+                        HAVING (SUM(A.InQty) - SUM(A.OutQty)) > 0
+                    )
+                    , _BatchWiseData AS 
+                    (
+                        SELECT DISTINCT B.BinCode, D.DistNumber, D.LotNumber, A.ItemCode, B.WhsCode, A.OnHandQty
+                        FROM KCMPL_LIVE.dbo.OBBQ A
+                             LEFT JOIN KCMPL_LIVE.dbo.OBIN B ON B.WhsCode = A.WhsCode AND B.AbsEntry = A.BinAbs
+                             LEFT JOIN KCMPL_LIVE.dbo.OIBT C ON A.ItemCode = C.ItemCode AND A.WhsCode = C.WhsCode
+                             LEFT JOIN KCMPL_LIVE.dbo.OBTN D ON A.SnBMDAbs = D.AbsEntry
+                        WHERE /*A.ItemCode = '130040600064' AND */ B.WhsCode = @whsCode AND D.LotNumber = @proj AND 
+                              B.AbsEntry = @bin AND A.OnHandQty > 0 
+                    )
+ 
+                    SELECT WhsCode, BinCode Bin, ItemCode, ItemName, SAPStock, QITStock, 
+                           SAPStock - QITStock EligibleStock, null OpeningStock, DistNumber 
+                    FROM
+                    (
+                        SELECT BB.WhsCode WhsCode, BB.BinCode Bin, BB.ItemCode, CC.ItemName, BB.DistNumber,   
+                               AA.PrjCode, AA.NetQty, BB.BinCode, BB.OnHandQty SAPStock,
+	                    (
+                            SELECT ISNULL(SUM(ISNULL(stock,0)),0)  
+                            FROM 
+                            (
+                                SELECT CASE WHEN A.POtoGRPO > 0 THEN 
+                                            (POtoGRPO + InQty - OutQty - IssueQty - DeliverQty + ReceiptQty + OpeningQty)
+                                        ELSE 
+                                            (InQty - OutQty - IssueQty - DeliverQty + ReceiptQty + OpeningQty)
+                                        END Stock
+                                FROM 
+                                (
+                                    SELECT A.WhsCode, A.WhsName,
+                                    (
+                                        ISNULL((	
+                                           SELECT sum(Z.Qty) POtoGRPOQty FROM [QIT_QRStock_InvTrans] Z 
+                                           INNER JOIN QIT_GateIN Z1 on Z.GateInNo = Z1.GateInNo and Z.ItemCode = Z1.ItemCode
+                                           WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS = BB.ItemCode and 
+                                                 Z.FromObjType = '22' and Z.ToObjType = '67' and  
+                                                 Z.ToWhs = A.WhsCode and ISNULL(Z.BranchID, 1) = 1 and 
+                                                 Z1.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode AND
+								                 Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS= BB.DistNumber
+                                         ),0)
+                                    ) POtoGRPO,
+                                    (
+                                        ISNULL((
+                                        SELECT sum(Z.Qty) InQty FROM [QIT_QRStock_InvTrans] Z 
+                                        INNER JOIN QIT_GateIN Z1 on Z.GateInNo = Z1.GateInNo and Z.ItemCode = Z1.ItemCode
+                                        WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = BB.ItemCode and 
+                                                (Z.FromObjType <> '22') AND 
+                                                Z.ToWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                                ISNULL(Z.BranchID, 1) = 1 and 
+                                                Z1.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode AND
+								                Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS = BB.DistNumber
+                                        ),0) 
+                                    ) InQty,
+                                    (
+                                        ISNULL((
+                                        SELECT sum(Z.Qty) OutQty FROM [QIT_QRStock_InvTrans] Z 
+                                        INNER JOIN QIT_GateIN Z1 on Z.GateInNo = Z1.GateInNo and Z.ItemCode = Z1.ItemCode
+                                        WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = BB.ItemCode and 
+                                                (Z.FromObjType <> '22') and
+                                                Z.FromWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                                ISNULL(Z.BranchID, 1) = 1 and 
+                                                Z1.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode AND
+								                Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS = BB.DistNumber
+
+                                        ),0)
+                                    ) OutQty,
+                                    (
+                                      ISNULL((
+                                        SELECT sum(Z.Qty) IssueQty FROM QIT_QRStock_ProToIssue Z 
+				                                    INNER JOIN QIT_QR_Detail Z1 on Z.QRCodeID = Z1.QRCodeID
+				                                    INNER JOIN QIT_GateIN Z2 on Z1.GateInNo = Z2.GateInNo and Z.ItemCode = Z2.ItemCode
+                                        WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = BB.ItemCode and  
+                                              Z.FromWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                              ISNULL(Z.BranchID, 1) = 1 and 
+                                              Z2.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode and
+								              Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS = BB.DistNumber
+                                      ),0)
+                                    ) IssueQty,
+                                    (
+                                      ISNULL((
+                                        SELECT sum(Z.Qty) DeliverQty FROM QIT_QRStock_SOToDelivery Z
+				                                    inner join QIT_QR_Detail Z1 on Z.QRCodeID = Z1.QRCodeID
+				                                    inner join QIT_GateIN Z2 on Z1.GateInNo = Z2.GateInNo and Z.ItemCode = Z2.ItemCode
+                                        WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = BB.ItemCode and  
+                                           Z.FromWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                           ISNULL(Z.BranchID, 1) = 1 and 
+                                           Z2.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode and
+							               Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS= BB.DistNumber
+                                      ),0)
+                                    ) DeliverQty,
+                                    (
+                                      ISNULL((
+                                        SELECT sum(Z.Qty) ReceiptQty FROM QIT_QRStock_ProToReceipt Z
+                                        INNER JOIN QIT_QR_Detail Z1 on Z.QRCodeID = Z1.QRCodeID
+                                        INNER JOIN QIT_GateIN Z2 on Z1.GateInNo = Z2.GateInNo and Z.ItemCode = Z2.ItemCode
+                                        WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = BB.ItemCode and 
+                                              Z.ToWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                              ISNULL(Z.BranchID, 1) = 1 and 
+                                             Z2.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode and
+						 		             Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS= BB.DistNumber
+                                      ),0)
+                                    ) ReceiptQty,
+                                    (
+                                        ISNULL((
+                                        SELECT sum(Z.OpeningQty) OpeningQty FROM QIT_OpeningStock Z 
+                                        WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = BB.ItemCode and 
+                                                Z.WhsCode collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                                ISNULL(Z.BranchID, 1) = 1 and 
+                                                Z.Project collate SQL_Latin1_General_CP850_CI_AS = AA.PrjCode and
+								                Z.BatchSerialNo collate SQL_Latin1_General_CP850_CI_AS = BB.DistNumber
+                                        ),0)
+                                    ) OpeningQty
+                                    FROM QIT_Warehouse_Master AS A
+                                    WHERE Locked = 'N' and A.WhsCode collate SQL_Latin1_General_CP850_CI_AS = BB.WhsCode
+				                ) as A  
+                            ) as A 
+                            WHERE A.Stock > 0   
+                        ) QITStock
+                        FROM _BinWiseData AA
+                             INNER JOIN _BatchWiseData BB ON AA.ItemCode = BB.ItemCode AND AA.PrjCode = BB.LotNumber 
+                             INNER JOIN KCMPL_LIVE.dbo.OITM CC ON  BB.ItemCode = CC.ItemCode
+                    ) AS A
+                    WHERE A.QITStock <= A.SAPStock
+                    FOR BROWSE
+                      
+2024-04-19 17:04:26.2921|0|DEBUG|WMS_UI_API.Program|NLogeer initilized in 'Main' 
+2024-04-19 17:04:27.0862|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-04-19 17:04:27.1265|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-04-19 17:04:27.1613|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-8d5202c6-241b-48a1-bf3b-b9600653df67.xml'. 
+2024-04-19 17:04:27.1613|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-d4ba379b-ed04-4785-b05a-ff62577380f2.xml'. 
+2024-04-19 17:04:27.1698|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8d5202c6-241b-48a1-bf3b-b9600653df67}. 
+2024-04-19 17:04:27.1698|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {d4ba379b-ed04-4785-b05a-ff62577380f2}. 
+2024-04-19 17:04:27.1698|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {d4ba379b-ed04-4785-b05a-ff62577380f2} with expiration date 2024-04-24 11:52:15Z as default key. 
+2024-04-19 17:04:27.1698|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-04-19 17:04:27.1698|0|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-04-19 17:04:27.1890|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-04-19 17:04:27.1890|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-04-19 17:04:27.1890|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-04-19 17:04:27.1890|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {d4ba379b-ed04-4785-b05a-ff62577380f2} as the default key. 
+2024-04-19 17:04:27.1890|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {d4ba379b-ed04-4785-b05a-ff62577380f2} was loaded during application startup. 
+2024-04-19 17:04:30.1573|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-04-19 17:04:30.2454|0|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-04-19 17:04:30.2764|0|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'NotificationHub' hub method 'NewEntryAdded' is bound. 
+2024-04-19 17:04:30.3905|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:6084 
+2024-04-19 17:04:30.4484|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WMS UI API 
+2024-04-19 17:04:30.4484|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-04-19 17:04:30.4484|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-04-19 17:04:30.4484|0|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-04-19 17:04:30.4534|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-04-19 17:04:30.4534|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-04-19 17:04:30.4534|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\WMS UI API - Kuster - SAP OneTime Connection\WMS UI API 
+2024-04-19 17:04:30.4534|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-04-19 17:04:30.6650|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN30CIMQSJM8" received FIN. 
+2024-04-19 17:04:30.6650|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJM8" accepted. 
+2024-04-19 17:04:30.6650|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJM8" started. 
+2024-04-19 17:04:30.6791|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN30CIMQSJM8" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-19 17:04:30.6791|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJM8" disconnecting. 
+2024-04-19 17:04:30.6791|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJM8" stopped. 
+2024-04-19 17:04:31.0644|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJM9" accepted. 
+2024-04-19 17:04:31.0644|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJM9" started. 
+2024-04-19 17:04:31.0644|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJMA" accepted. 
+2024-04-19 17:04:31.0644|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJMA" started. 
+2024-04-19 17:04:31.0929|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/index.html - - 
+2024-04-19 17:04:31.1283|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-04-19 17:04:31.1283|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-19 17:04:31.2125|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-04-19 17:04:31.3430|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJMB" accepted. 
+2024-04-19 17:04:31.3430|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJMB" started. 
+2024-04-19 17:04:31.3430|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - 
+2024-04-19 17:04:31.3430|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - 
+2024-04-19 17:04:31.3430|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJMA" completed keep alive response. 
+2024-04-19 17:04:31.3430|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 4.0597ms 
+2024-04-19 17:04:31.3430|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-04-19 17:04:31.3610|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJM9" completed keep alive response. 
+2024-04-19 17:04:31.3610|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/index.html - - - 200 - text/html;charset=utf-8 280.3816ms 
+2024-04-19 17:04:31.3897|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJMB" completed keep alive response. 
+2024-04-19 17:04:31.3897|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.2480ms 
+2024-04-19 17:04:31.4674|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - 
+2024-04-19 17:04:31.4674|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-19 17:04:31.6094|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJMB" completed keep alive response. 
+2024-04-19 17:04:31.6094|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.1516ms 
+2024-04-19 17:05:02.9861|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/api/StockOpening/ItemData?BranchID=1&WhsCode=vd-store&AbsEntry=35479&ProjectCode=common - - 
+2024-04-19 17:05:02.9861|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-19 17:05:02.9861|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-04-19 17:05:02.9861|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /api/StockOpening/ItemData does not match a supported file type 
+2024-04-19 17:05:02.9861|0|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-04-19 17:05:03.0366|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/StockOpening/ItemData' 
+2024-04-19 17:05:03.0366|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API)' with route pattern 'api/StockOpening/ItemData' is valid for the request path '/api/StockOpening/ItemData' 
+2024-04-19 17:05:03.0366|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API)' 
+2024-04-19 17:05:03.0366|0|DEBUG|WMS_UI_API.Middlewares.ExceptionHandler|Log Initilized 
+2024-04-19 17:05:03.1440|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-04-19 17:05:03.1440|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API)' 
+2024-04-19 17:05:03.1744|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetItemData", controller = "StockOpening"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WMS_UI_API.Models.OS_ItemData]]] GetItemData(Int32, System.String, Int32, System.String) on controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API). 
+2024-04-19 17:05:03.1744|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-04-19 17:05:03.1744|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-04-19 17:05:03.1744|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-04-19 17:05:03.1744|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-04-19 17:05:03.1744|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-04-19 17:05:03.1744|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API) 
+2024-04-19 17:05:03.1744|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WMS_UI_API.Controllers.StockOpeningController (WMS UI API) 
+2024-04-19 17:05:03.1744|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'BranchID' of type 'System.Int32' ... 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'BranchID' of type 'System.Int32' using the name 'BranchID' in request data ... 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'BranchID' of type 'System.Int32'. 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'BranchID' of type 'System.Int32'. 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'BranchID' of type 'System.Int32' ... 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'BranchID' of type 'System.Int32'. 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'WhsCode' of type 'System.String' ... 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'WhsCode' of type 'System.String' using the name 'WhsCode' in request data ... 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'WhsCode' of type 'System.String'. 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'WhsCode' of type 'System.String'. 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'WhsCode' of type 'System.String' ... 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'WhsCode' of type 'System.String'. 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'AbsEntry' of type 'System.Int32' ... 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'AbsEntry' of type 'System.Int32' using the name 'AbsEntry' in request data ... 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'AbsEntry' of type 'System.Int32'. 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'AbsEntry' of type 'System.Int32'. 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'AbsEntry' of type 'System.Int32' ... 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'AbsEntry' of type 'System.Int32'. 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'ProjectCode' of type 'System.String' ... 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'ProjectCode' of type 'System.String' using the name 'ProjectCode' in request data ... 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'ProjectCode' of type 'System.String'. 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'ProjectCode' of type 'System.String'. 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'ProjectCode' of type 'System.String' ... 
+2024-04-19 17:05:03.1851|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'ProjectCode' of type 'System.String'. 
+2024-04-19 17:05:03.1851|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-04-19 17:05:03.1851|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-04-19 17:05:03.1851|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-04-19 17:05:03.1851|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-04-19 17:05:03.1851|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API) - Validation state: Valid 
+2024-04-19 17:05:03.1851|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API) with arguments (1, vd-store, 35479, common) 
+2024-04-19 17:05:03.2523|0|INFO|WMS_UI_API.Controllers.StockOpeningController| Calling StockOpeningController : GetItemData()  
+2024-04-19 17:05:03.2851|0|INFO|WMS_UI_API.Controllers.StockOpeningController| StockOpeningController : GetItemData() Query :  
+                    SELECT @whsCode WhsCode, (select Z.BinCode from KCMPL_LIVE.dbo.OBIN Z where Z.AbsEntry = @bin) Bin, 
+                           ItemCode, ItemName, SAPStock, QITStock, 
+                           SAPStock - QITStock EligibleStock, null OpeningStock, DistNumber
+                    FROM 
+                    ( 
+                        SELECT EE.DistNumber, AA.ItemCode, FF.ItemName, SUM(CC.OnHandQty) SAPStock,
+                        (
+                            SELECT ISNULL(SUM(ISNULL(stock,0)),0)  FROM 
+                            (
+                                SELECT CASE WHEN A.POtoGRPO > 0 THEN 
+                                            (POtoGRPO + InQty - OutQty - IssueQty - DeliverQty + ReceiptQty + OpeningQty)
+                                       ELSE 
+                                            (InQty - OutQty - IssueQty - DeliverQty + ReceiptQty + OpeningQty)
+                                       END Stock
+                                FROM 
+                                (
+                                    SELECT A.WhsCode, A.WhsName,
+                                           (
+                                             ISNULL((	
+                                               SELECT sum(Z.Qty) POtoGRPOQty FROM [QIT_QRStock_InvTrans] Z 
+                                               INNER JOIN QIT_GateIN Z1 on Z.GateInNo = Z1.GateInNo and Z.ItemCode = Z1.ItemCode
+                                               WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS = AA.ItemCode and 
+                                                     Z.FromObjType = '22' and Z.ToObjType = '67' and  
+                                                     Z.ToWhs = A.WhsCode and ISNULL(Z.BranchID, @bId) = @bId and 
+                                                     Z1.Project collate SQL_Latin1_General_CP850_CI_AS = EE.U_Project
+                                             ),0)
+                                           ) POtoGRPO,
+                                           (
+                                             ISNULL((
+                                               SELECT sum(Z.Qty) InQty FROM [QIT_QRStock_InvTrans] Z 
+                                               INNER JOIN QIT_GateIN Z1 on Z.GateInNo = Z1.GateInNo and Z.ItemCode = Z1.ItemCode
+                                               WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = AA.ItemCode and 
+                                                     (Z.FromObjType <> '22') AND 
+                                                     Z.ToWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                                     ISNULL(Z.BranchID, @bId) = @bId and 
+                                                     Z1.Project collate SQL_Latin1_General_CP850_CI_AS = EE.U_Project
+                                             ),0) 
+                                           ) InQty,
+                                           (
+                                             ISNULL((
+                                               SELECT sum(Z.Qty) OutQty FROM [QIT_QRStock_InvTrans] Z 
+                                               INNER JOIN QIT_GateIN Z1 on Z.GateInNo = Z1.GateInNo and Z.ItemCode = Z1.ItemCode
+                                               WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = AA.ItemCode and 
+                                                     (Z.FromObjType <> '22') and
+                                                     Z.FromWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                                     ISNULL(Z.BranchID, @bId) = @bId and 
+                                                     Z1.Project collate SQL_Latin1_General_CP850_CI_AS = EE.U_Project
+
+                                             ),0)
+                                           ) OutQty,
+                                           (
+                                             ISNULL((
+                                               SELECT sum(Z.Qty) IssueQty FROM QIT_QRStock_ProToIssue Z 
+				                                           INNER JOIN QIT_QR_Detail Z1 on Z.QRCodeID = Z1.QRCodeID
+				                                           INNER JOIN QIT_GateIN Z2 on Z1.GateInNo = Z2.GateInNo and Z.ItemCode = Z2.ItemCode
+                                               WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = AA.ItemCode and  
+                                                     Z.FromWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                                     ISNULL(Z.BranchID, @bId) = @bId and 
+                                                     Z2.Project collate SQL_Latin1_General_CP850_CI_AS = EE.U_Project
+                                             ),0)
+                                           ) IssueQty,
+                                           (
+                                             ISNULL((
+                                               SELECT sum(Z.Qty) DeliverQty FROM QIT_QRStock_SOToDelivery Z
+				                                           inner join QIT_QR_Detail Z1 on Z.QRCodeID = Z1.QRCodeID
+				                                           inner join QIT_GateIN Z2 on Z1.GateInNo = Z2.GateInNo and Z.ItemCode = Z2.ItemCode
+                                               WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = AA.ItemCode and  
+                                                  Z.FromWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                                  ISNULL(Z.BranchID, @bId) = @bId and 
+                                                  Z2.Project collate SQL_Latin1_General_CP850_CI_AS = EE.U_Project
+                                             ),0)
+                                           ) DeliverQty,
+                                           (
+                                             ISNULL((
+                                               SELECT sum(Z.Qty) ReceiptQty FROM QIT_QRStock_ProToReceipt Z
+                                               INNER JOIN QIT_QR_Detail Z1 on Z.QRCodeID = Z1.QRCodeID
+                                               INNER JOIN QIT_GateIN Z2 on Z1.GateInNo = Z2.GateInNo and Z.ItemCode = Z2.ItemCode
+                                               WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = AA.ItemCode and 
+                                                     Z.ToWhs collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                                     ISNULL(Z.BranchID, @bId) = @bId and 
+                                                     Z2.Project collate SQL_Latin1_General_CP850_CI_AS = EE.U_Project
+                                             ),0)
+                                           ) ReceiptQty,
+                                           (
+                                             ISNULL((
+                                               SELECT sum(Z.OpeningQty) OpeningQty FROM QIT_OpeningStock Z 
+                                               WHERE Z.ItemCode collate SQL_Latin1_General_CP850_CI_AS  = AA.ItemCode and 
+                                                     Z.WhsCode collate SQL_Latin1_General_CP850_CI_AS = A.WhsCode and 
+                                                     ISNULL(Z.BranchID, @bId) = @bId and 
+                                                     Z.Project collate SQL_Latin1_General_CP850_CI_AS = EE.U_Project
+                                             ),0)
+                                           ) OpeningQty
+                                    FROM QIT_Warehouse_Master AS A
+                                    WHERE Locked = 'N' and A.WhsCode collate SQL_Latin1_General_CP850_CI_AS = AA.WhsCode
+				
+                                ) as A  
+                            ) as A 
+                            WHERE A.Stock > 0   
+                        ) QITStock
+                        FROM KCMPL_LIVE.dbo.OITW AA
+	                    INNER JOIN KCMPL_LIVE.dbo.OBIN BB ON AA.WhsCode = BB.WhsCode
+	                    INNER JOIN KCMPL_LIVE.dbo.OIBQ CC ON CC.WhsCode = AA.WhsCode AND 
+                                   BB.AbsEntry = CC.BinAbs AND AA.ItemCode = CC.ItemCode
+	                    INNER JOIN KCMPL_LIVE.dbo.OBBQ DD ON DD.ItemCode = AA.ItemCode AND 
+                                   DD.BinAbs = BB.AbsEntry AND DD.WhsCode = CC.WhsCode
+	                    INNER JOIN KCMPL_LIVE.dbo.OBTN EE ON EE.AbsEntry = DD.SnBMDAbs
+	                    INNER JOIN KCMPL_LIVE.dbo.OITM FF ON FF.ItemCode = AA.ItemCode
+                        WHERE CC.OnHandQty > 0 AND DD.OnHandQty > 0 AND CC.OnHandQty > 0 and 
+                              AA.WhsCode = @whsCode and BB.AbsEntry = @bin and EE.U_Project = @proj
+                        GROUP BY AA.WhsCode, EE.DistNumber, AA.ItemCode , FF.ItemName, EE.U_Project
+                    ) as A  
+                    WHERE A.QITStock <= A.SAPStock
+                    FOR BROWSE
+                      
+2024-04-19 17:08:14.6752|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 191474.0198ms. 
+2024-04-19 17:08:14.6752|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-04-19 17:08:14.6752|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-04-19 17:08:14.6752|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-04-19 17:08:14.6752|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-04-19 17:08:14.6752|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-04-19 17:08:14.6752|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-04-19 17:08:14.6752|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-04-19 17:08:14.6752|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-04-19 17:08:14.6752|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-04-19 17:08:14.6752|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-04-19 17:08:14.6752|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-04-19 17:08:14.6752|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-04-19 17:08:14.6752|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-04-19 17:08:14.6752|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WMS_UI_API.Models.OS_ItemData, WMS UI API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-04-19 17:08:14.6752|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-04-19 17:08:14.6752|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-04-19 17:08:14.6752|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-04-19 17:08:14.6875|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API) in 191508.7024ms 
+2024-04-19 17:08:14.6875|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WMS_UI_API.Controllers.StockOpeningController.GetItemData (WMS UI API)' 
+2024-04-19 17:08:14.6875|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJMB" completed keep alive response. 
+2024-04-19 17:08:14.6875|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/api/StockOpening/ItemData?BranchID=1&WhsCode=vd-store&AbsEntry=35479&ProjectCode=common - - - 200 - application/json;+charset=utf-8 191701.5499ms 
+2024-04-19 17:11:28.2422|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN30CIMQSJM9" received FIN. 
+2024-04-19 17:11:28.2422|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN30CIMQSJMA" received FIN. 
+2024-04-19 17:11:28.2679|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN30CIMQSJM9" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-19 17:11:28.2679|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN30CIMQSJMA" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-19 17:11:28.2679|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJM9" disconnecting. 
+2024-04-19 17:11:28.2679|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJMA" disconnecting. 
+2024-04-19 17:11:28.2798|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJMA" stopped. 
+2024-04-19 17:11:28.2798|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJM9" stopped. 
+2024-04-19 17:13:28.2554|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN30CIMQSJMB" received FIN. 
+2024-04-19 17:13:28.2554|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJMB" disconnecting. 
+2024-04-19 17:13:28.2554|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN30CIMQSJMB" stopped. 
+2024-04-19 17:13:28.2908|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN30CIMQSJMB" sending FIN because: "The Socket transport's send loop completed gracefully." 

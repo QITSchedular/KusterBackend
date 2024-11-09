@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\WMS UI API - Kuster - SAP OneTime Connection\WMS UI API\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2024-04-04T12:21:15.5314290Z;True|2024-04-02T14:35:13.1297341+05:30;True|2024-04-02T14:04:59.6235962+05:30;True|2024-04-02T10:46:30.7181244+05:30;True|2024-04-02T10:28:31.8574878+05:30;True|2024-04-02T10:24:12.0815916+05:30;True|2024-04-01T18:15:22.5245429+05:30;True|2024-04-01T17:49:07.8708429+05:30;True|2024-04-01T17:33:19.1926989+05:30;True|2024-04-01T17:10:56.8438763+05:30;True|2024-04-01T17:06:49.5069379+05:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
